@@ -1,0 +1,83 @@
+.page-template-template-keystone-indie {
+	background: $white;
+	color: $black;
+
+	nav {
+		background: black;
+	}
+
+	.callout-image {
+		color: $white;
+	}
+
+	.intro {
+		margin-top: 225px;
+		@extend .container;
+
+		.container {
+			.row {
+				p {
+					padding-right: 15px;
+				}
+			}
+		}
+
+		.row {
+			.image-container {
+				@extend .col-sm-12;
+
+				img {
+					width: 650px;
+				}
+			}
+
+			.divider {
+				margin-top: 30px;
+			}
+		}
+	}
+
+	p {
+		padding-right: 15px;
+
+		@include above('medium') {
+			font-size: 20px;
+		}
+
+		&.gradient {
+			font-size: 40px;
+		}
+	}
+
+	.divider {
+		@extend .col-sm-12;
+		fill: $black;
+		margin-top: 100px;
+	}
+
+	.heading {
+		@extend .col-sm-12;
+		@extend %sofia-pro-bold;
+		margin-top: 10px;
+		font-size: 40px;
+		line-height: 48px;
+	}
+
+	.body-content {
+		@extend .col-sm-12;
+		margin-top: 25px;
+	}
+
+	.featured-content {
+		color: $white;
+	}
+
+	.other-games {
+		margin-top: 40px;
+
+		.divider {
+			margin-top: 0;
+			fill: $white;
+		}
+	}
+}

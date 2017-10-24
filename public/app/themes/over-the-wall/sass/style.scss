@@ -1,0 +1,34 @@
+@charset 'UTF-8';
+
+/**
+ * Theme Name : Over The Wall
+ * Author : Brave Marketing
+ * Author URI : http://www.brave.co.uk
+ */
+
+// Settings & Variables
+@import 'partials/functions';
+@import 'partials/vars';
+
+// Normalise
+@import '../node_modules/normalize-scss/sass/normalize';
+@include normalize;
+
+// Bootstrap Grid
+@import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+// Partials
+@import 'partials/responsive';
+@import 'partials/helpers';
+
+// Modules
+@import 'modules/typography';
+@import 'modules/buttons';
+@import 'modules/global';
+
+// Sections
+
+// Components
+
+// Templates
+

@@ -1,0 +1,98 @@
+// ==========================================================================
+// $ Buttons
+// ==========================================================================
+
+//
+// Base Button Style
+// Modified from https://github.com/csswizardry/beautons/blob/master/beautons.css
+//
+.btn,
+%btn {
+	-webkit-appearance: none;
+	display: inline-block;
+	vertical-align: middle;
+	white-space: nowrap;
+	// font-family: inherit;
+	font-size: 100%;
+	cursor: pointer;
+	background: none;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	overflow: visible;
+
+	&,
+	&:hover,
+	&:active,
+	&:focus,
+	&:visited {
+		text-decoration: none;
+	}
+
+	&:active,
+	&:focus {
+		outline: none;
+	}
+
+	&::-moz-focus-inner {
+		border: 0;
+		padding: 0;
+	}
+}
+
+
+
+
+
+//
+// $$ Button Size Modifiers
+// ==========================================================================
+
+//
+// These all follow the same sizing rules; text is 1em, space around it
+// remains uniform.
+//
+// @extends  .btn
+//
+@mixin btn-size($width: 1, $height: 2) {
+	padding-right: $width * 1em;
+	padding-left: $width * 1em;
+	line-height: $height;
+	height: $height * 1em;
+}
+
+%btn--small { @include btn-size(0.5, 2); }
+%btn--mid   { @include btn-size(1, 2); }
+%btn--large { @include btn-size(2, 3); }
+%btn--huge  { @include btn-size(2, 5); }
+
+// These buttons will fill the entirety of their container.
+%btn--fullwidth {
+	width: 100%;
+	padding-right: 0;
+	padding-left: 0;
+	text-align: center;
+}
+
+
+
+
+
+//
+// $$ Button Styles
+// ==========================================================================
+
+
+
+
+//
+// $$ Button Specifics
+// @extends .btn, a button size & a button style
+// and any CSS specific to that button
+// ==========================================================================
+
+//
+// Primary Button
+// @example  `<a href="" class="btn-primary">Button!</a>
+//
+

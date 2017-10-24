@@ -1,0 +1,13 @@
+.post-type-archive-meet-the-team {
+	p {
+		color: $light_grey;
+	}
+
+	.intro {
+		margin-bottom: 40px;
+
+		@include above('medium') {
+			margin-bottom: 80px;
+		}
+	}
+}

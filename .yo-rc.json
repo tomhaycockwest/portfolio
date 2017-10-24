@@ -1,0 +1,8 @@
+{
+  "generator-brave-site": {
+    "framework": "wp",
+    "safeSiteName": "keystone-games",
+    "destDir": "public/app/themes/keystone-games",
+    "assetsDir": "public/app/themes/keystone-games"
+  }
+}

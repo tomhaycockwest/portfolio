@@ -1,0 +1,25 @@
+.page-about-us,
+.page-publishing,
+.page-terms-and-conditions,
+.page-privacy-policy,
+.error404 {
+	.intro {
+		margin-top: calc(100vh * -0.7);
+	}
+
+	.bio {
+		margin-top: 70px;
+	}
+
+	.full-width-image {
+		margin-top: 80px;
+	}
+
+	.text-block {
+		p {
+			a {
+				color: $white;
+			}
+		}
+	}
+}

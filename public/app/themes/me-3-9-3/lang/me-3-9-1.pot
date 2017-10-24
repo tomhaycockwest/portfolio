@@ -1,0 +1,2753 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Me 3.9.1\n"
+"POT-Creation-Date: 2017-02-07 23:49+0100\n"
+"PO-Revision-Date: 2017-02-07 23:49+0100\n"
+"Last-Translator: \n"
+"Language-Team: MagnaThemes <info@magna-themes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-KeywordsList: esc_attr__;esc_attr__e;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:13
+msgid "Something terrible happened"
+msgstr ""
+
+#: ../404.php:19
+msgid "We are really sorry, but the page you requested cannot be found :("
+msgstr ""
+
+#: ../archive_layout1.php:51 ../archive_layout2.php:53 ../blog_layout1.php:56
+#: ../blog_layout2.php:58 ../single.php:58
+msgid "Leave a comment"
+msgstr ""
+
+#: ../archive_layout1.php:51 ../archive_layout2.php:53 ../blog_layout1.php:56
+#: ../blog_layout2.php:58 ../single.php:58
+msgid "1 Comment"
+msgstr ""
+
+#: ../archive_layout1.php:51 ../archive_layout2.php:53 ../blog_layout1.php:56
+#: ../blog_layout2.php:58 ../single.php:58
+msgid "% Comments"
+msgstr ""
+
+#: ../archive_layout1.php:69 ../archive_layout2.php:71 ../blog_layout1.php:74
+#: ../blog_layout2.php:76 ../lib/admin/blog/blog_field_callbacks.php:36
+msgid "Read more"
+msgstr ""
+
+#: ../archive_layout1.php:98 ../archive_layout2.php:100
+#: ../blog_layout1.php:103 ../blog_layout2.php:105 ../page.php:27
+#: ../template-page-left-sidebar.php:39 ../template-page-right-sidebar.php:30
+msgid "Not Found"
+msgstr ""
+
+#: ../archive_layout1.php:101 ../archive_layout2.php:103
+#: ../blog_layout1.php:106 ../blog_layout2.php:108 ../page.php:30
+#: ../template-page-left-sidebar.php:42 ../template-page-right-sidebar.php:33
+msgid "Sorry, but there are no results for the requested archive."
+msgstr ""
+
+#: ../comments.php:26
+msgid "edit"
+msgstr ""
+
+#: ../comments.php:50
+msgid "Comments"
+msgstr ""
+
+#: ../comments.php:68
+msgid "No comments"
+msgstr ""
+
+#: ../comments.php:72
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:82
+msgid "Leave a reply"
+msgstr ""
+
+#: ../comments.php:87 ../lib/admin/blog/blog_field_callbacks.php:156
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:22
+#: ../lib/home_sections/contact_section.php:37
+msgid "Your Name"
+msgstr ""
+
+#: ../comments.php:88 ../lib/admin/blog/blog_field_callbacks.php:195
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:8
+#: ../lib/admin/contact_settings/contact_field_callbacks.php:9
+msgid "Email Address"
+msgstr ""
+
+#: ../comments.php:89 ../lib/admin/blog/blog_field_callbacks.php:213
+msgid "Your Website ( optional )"
+msgstr ""
+
+#: ../comments.php:90 ../lib/admin/blog/blog_field_callbacks.php:267
+msgid "Your Thoughts"
+msgstr ""
+
+#: ../comments.php:91 ../lib/admin/blog/blog_field_callbacks.php:177
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:94
+#: ../lib/home_sections/contact_section.php:38
+msgid "What is your name?"
+msgstr ""
+
+#: ../comments.php:92 ../lib/admin/blog/blog_field_callbacks.php:231
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:112
+#: ../lib/home_sections/contact_section.php:47
+msgid "What is your email address?"
+msgstr ""
+
+#: ../comments.php:93 ../lib/admin/blog/blog_field_callbacks.php:249
+msgid "Oh No! Invalid email address!"
+msgstr ""
+
+#: ../comments.php:94 ../lib/admin/blog/blog_field_callbacks.php:285
+msgid "Do you want to say sumthin?"
+msgstr ""
+
+#: ../comments.php:99
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../comments.php:100
+msgid "Cancel Reply"
+msgstr ""
+
+#: ../comments.php:101 ../searchform.php:4
+msgid "GO"
+msgstr ""
+
+#: ../comments.php:103
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../comments.php:104
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: ../comments.php:105
+msgid "Your email address will not be published."
+msgstr ""
+
+#: ../comments.php:106
+#, php-format
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes: %s"
+msgstr ""
+
+#: ../footer.php:5
+#: ../lib/admin/general_settings/general_field_callbacks.php:181
+msgid "Magna Themes 2016 &copy; All Rights Reserved"
+msgstr ""
+
+#: ../lib/admin/advanced/advanced.php:16
+#: ../lib/admin/blog/blog_settings.php:16
+#: ../lib/admin/contact_form_settings/contact_form_settings.php:16
+#: ../lib/admin/contact_settings/contact_settings.php:16
+#: ../lib/admin/general_settings/general_settings.php:16
+#: ../lib/admin/home_settings/home_settings.php:16
+#: ../lib/admin/portfolio_settings/portfolio_settings.php:16
+#: ../lib/admin/seo/seo.php:16 ../lib/admin/services/services_settings.php:16
+#: ../lib/admin/slider/slider_settings.php:17
+#: ../lib/admin/sociable/sociable.php:16
+#: ../lib/admin/style_settings/style_settings.php:16
+msgid "Options updated succesfully!"
+msgstr ""
+
+#: ../lib/admin/advanced/advanced.php:23
+msgid "Advanced settings"
+msgstr ""
+
+#: ../lib/admin/advanced/advanced.php:24 ../lib/admin/advanced/advanced.php:35
+#: ../lib/admin/blog/blog_settings.php:24
+#: ../lib/admin/blog/blog_settings.php:35
+#: ../lib/admin/contact_form_settings/contact_form_settings.php:24
+#: ../lib/admin/contact_form_settings/contact_form_settings.php:37
+#: ../lib/admin/contact_settings/contact_settings.php:24
+#: ../lib/admin/contact_settings/contact_settings.php:36
+#: ../lib/admin/general_settings/general_settings.php:24
+#: ../lib/admin/general_settings/general_settings.php:35
+#: ../lib/admin/home_settings/home_settings.php:24
+#: ../lib/admin/home_settings/home_settings.php:35
+#: ../lib/admin/portfolio_settings/portfolio_settings.php:24
+#: ../lib/admin/portfolio_settings/portfolio_settings.php:35
+#: ../lib/admin/seo/seo.php:24 ../lib/admin/seo/seo.php:35
+#: ../lib/admin/services/services_settings.php:24
+#: ../lib/admin/services/services_settings.php:35
+#: ../lib/admin/slider/slider_settings.php:25
+#: ../lib/admin/slider/slider_settings.php:36
+#: ../lib/admin/slider/slider_settings2.php:12
+#: ../lib/admin/sociable/sociable.php:24 ../lib/admin/sociable/sociable.php:42
+#: ../lib/admin/style_settings/style_settings.php:24
+#: ../lib/admin/style_settings/style_settings.php:42
+msgid "Save Changes"
+msgstr ""
+
+#: ../lib/admin/advanced/advanced_field_callbacks.php:7
+msgid "Custom css"
+msgstr ""
+
+#: ../lib/admin/advanced/advanced_field_callbacks.php:12
+msgid ""
+"You can add your custom css code to the &lt;head>. Please don not use the "
+"&lt;style> tags, because the theme generates them automatically!"
+msgstr ""
+
+#: ../lib/admin/advanced/advanced_field_callbacks.php:29
+msgid "Custom javascript"
+msgstr ""
+
+#: ../lib/admin/advanced/advanced_field_callbacks.php:34
+msgid ""
+"You can add your custom javascript code to the &lt;head>. Please don not use "
+"the &lt;script> html tags, because the theme generates them automatically!"
+msgstr ""
+
+#: ../lib/admin/advanced/options_menu.php:6
+#: ../lib/admin/blog/options_menu.php:6
+#: ../lib/admin/contact_form_settings/options_menu.php:6
+#: ../lib/admin/contact_settings/options_menu.php:6
+#: ../lib/admin/general_settings/options_menu.php:6
+#: ../lib/admin/home_settings/options_menu.php:6
+#: ../lib/admin/portfolio_settings/options_menu.php:6
+#: ../lib/admin/seo/options_menu.php:6
+#: ../lib/admin/services/options_menu.php:6
+#: ../lib/admin/slider/options_menu.php:6
+#: ../lib/admin/sociable/options_menu.php:6
+#: ../lib/admin/style_settings/options_menu.php:6
+msgid "General"
+msgstr ""
+
+#: ../lib/admin/advanced/options_menu.php:11
+#: ../lib/admin/blog/options_menu.php:11
+#: ../lib/admin/contact_form_settings/options_menu.php:11
+#: ../lib/admin/contact_settings/options_menu.php:11
+#: ../lib/admin/general_settings/options_menu.php:11
+#: ../lib/admin/home_settings/options_menu.php:11
+#: ../lib/admin/portfolio_settings/options_menu.php:11
+#: ../lib/admin/seo/options_menu.php:11
+#: ../lib/admin/services/options_menu.php:11
+#: ../lib/admin/slider/options_menu.php:11
+#: ../lib/admin/sociable/options_menu.php:11
+#: ../lib/admin/style_settings/options_menu.php:11
+#: ../lib/admin/theme_settings.php:9
+msgid "Styling"
+msgstr ""
+
+#: ../lib/admin/advanced/options_menu.php:16
+#: ../lib/admin/blog/options_menu.php:16
+#: ../lib/admin/contact_form_settings/options_menu.php:16
+#: ../lib/admin/contact_settings/options_menu.php:16
+#: ../lib/admin/general_settings/options_menu.php:16
+#: ../lib/admin/home_settings/options_menu.php:16
+#: ../lib/admin/portfolio_settings/options_menu.php:16
+#: ../lib/admin/seo/options_menu.php:16
+#: ../lib/admin/services/options_menu.php:16
+#: ../lib/admin/slider/options_menu.php:16
+#: ../lib/admin/sociable/options_menu.php:16
+#: ../lib/admin/style_settings/options_menu.php:16
+#: ../lib/admin/theme_settings.php:11
+msgid "Homepage"
+msgstr ""
+
+#: ../lib/admin/advanced/options_menu.php:21
+#: ../lib/admin/blog/options_menu.php:21
+#: ../lib/admin/contact_form_settings/options_menu.php:21
+#: ../lib/admin/contact_settings/options_menu.php:21
+#: ../lib/admin/general_settings/options_menu.php:21
+#: ../lib/admin/home_settings/options_menu.php:21
+#: ../lib/admin/portfolio_settings/options_menu.php:21
+#: ../lib/admin/seo/options_menu.php:21
+#: ../lib/admin/services/options_menu.php:21
+#: ../lib/admin/slider/options_menu.php:21
+#: ../lib/admin/slider/slider_settings.php:24
+#: ../lib/admin/sociable/options_menu.php:21
+#: ../lib/admin/style_settings/options_menu.php:21
+#: ../lib/admin/theme_settings.php:13 ../lib/slider/slider.php:7
+msgid "Slider"
+msgstr ""
+
+#: ../lib/admin/advanced/options_menu.php:26
+#: ../lib/admin/blog/options_menu.php:26
+#: ../lib/admin/contact_form_settings/options_menu.php:26
+#: ../lib/admin/contact_settings/options_menu.php:26
+#: ../lib/admin/general_settings/options_menu.php:26
+#: ../lib/admin/home_settings/options_menu.php:26
+#: ../lib/admin/portfolio_settings/options_menu.php:26
+#: ../lib/admin/seo/options_menu.php:26
+#: ../lib/admin/services/options_menu.php:26
+#: ../lib/admin/slider/options_menu.php:26
+#: ../lib/admin/sociable/options_menu.php:26
+#: ../lib/admin/style_settings/options_menu.php:26
+#: ../lib/admin/theme_settings.php:15 ../lib/portfolio/portfolio.php:7
+msgid "Portfolio"
+msgstr ""
+
+#: ../lib/admin/advanced/options_menu.php:31
+#: ../lib/admin/blog/options_menu.php:31
+#: ../lib/admin/contact_form_settings/options_menu.php:31
+#: ../lib/admin/contact_settings/options_menu.php:31
+#: ../lib/admin/general_settings/options_menu.php:31
+#: ../lib/admin/home_settings/options_menu.php:31
+#: ../lib/admin/portfolio_settings/options_menu.php:31
+#: ../lib/admin/seo/options_menu.php:31
+#: ../lib/admin/services/options_menu.php:31
+#: ../lib/admin/services/services_settings.php:23
+#: ../lib/admin/slider/options_menu.php:31
+#: ../lib/admin/sociable/options_menu.php:31
+#: ../lib/admin/style_settings/options_menu.php:31
+#: ../lib/admin/theme_settings.php:17 ../lib/services/services.php:6
+msgid "Services"
+msgstr ""
+
+#: ../lib/admin/advanced/options_menu.php:36
+#: ../lib/admin/blog/options_menu.php:36
+#: ../lib/admin/contact_form_settings/options_menu.php:36
+#: ../lib/admin/contact_settings/options_menu.php:36
+#: ../lib/admin/general_settings/options_menu.php:36
+#: ../lib/admin/home_settings/options_menu.php:36
+#: ../lib/admin/portfolio_settings/options_menu.php:36
+#: ../lib/admin/seo/options_menu.php:36
+#: ../lib/admin/services/options_menu.php:36
+#: ../lib/admin/slider/options_menu.php:36
+#: ../lib/admin/sociable/options_menu.php:36
+#: ../lib/admin/style_settings/options_menu.php:36
+msgid "Contact info"
+msgstr ""
+
+#: ../lib/admin/advanced/options_menu.php:41
+#: ../lib/admin/blog/options_menu.php:41
+#: ../lib/admin/contact_form_settings/options_menu.php:41
+#: ../lib/admin/contact_settings/options_menu.php:41
+#: ../lib/admin/general_settings/options_menu.php:41
+#: ../lib/admin/home_settings/options_menu.php:41
+#: ../lib/admin/portfolio_settings/options_menu.php:41
+#: ../lib/admin/seo/options_menu.php:41
+#: ../lib/admin/services/options_menu.php:41
+#: ../lib/admin/slider/options_menu.php:41
+#: ../lib/admin/sociable/options_menu.php:41
+#: ../lib/admin/style_settings/options_menu.php:41
+#: ../lib/admin/theme_settings.php:21
+msgid "Contact form"
+msgstr ""
+
+#: ../lib/admin/advanced/options_menu.php:46
+#: ../lib/admin/blog/options_menu.php:46
+#: ../lib/admin/contact_form_settings/options_menu.php:46
+#: ../lib/admin/contact_settings/options_menu.php:46
+#: ../lib/admin/general_settings/options_menu.php:46
+#: ../lib/admin/home_settings/options_menu.php:46
+#: ../lib/admin/portfolio_settings/options_menu.php:46
+#: ../lib/admin/seo/options_menu.php:46
+#: ../lib/admin/services/options_menu.php:46
+#: ../lib/admin/slider/options_menu.php:46
+#: ../lib/admin/sociable/options_menu.php:46
+#: ../lib/admin/sociable/sociable.php:23 ../lib/admin/sociable/sociable.php:99
+#: ../lib/admin/style_settings/options_menu.php:46
+#: ../lib/admin/theme_settings.php:23
+msgid "Sociable"
+msgstr ""
+
+#: ../lib/admin/advanced/options_menu.php:51
+#: ../lib/admin/blog/options_menu.php:51
+#: ../lib/admin/contact_form_settings/options_menu.php:51
+#: ../lib/admin/contact_settings/options_menu.php:51
+#: ../lib/admin/general_settings/options_menu.php:51
+#: ../lib/admin/home_settings/options_menu.php:51
+#: ../lib/admin/portfolio_settings/options_menu.php:51
+#: ../lib/admin/seo/options_menu.php:51
+#: ../lib/admin/services/options_menu.php:51
+#: ../lib/admin/slider/options_menu.php:51
+#: ../lib/admin/sociable/options_menu.php:51
+#: ../lib/admin/style_settings/options_menu.php:51
+#: ../lib/admin/theme_settings.php:25
+msgid "Blog"
+msgstr ""
+
+#: ../lib/admin/advanced/options_menu.php:56
+#: ../lib/admin/blog/options_menu.php:56
+#: ../lib/admin/contact_form_settings/options_menu.php:56
+#: ../lib/admin/contact_settings/options_menu.php:56
+#: ../lib/admin/general_settings/options_menu.php:56
+#: ../lib/admin/home_settings/options_menu.php:56
+#: ../lib/admin/portfolio_settings/options_menu.php:56
+#: ../lib/admin/seo/options_menu.php:56
+#: ../lib/admin/services/options_menu.php:56
+#: ../lib/admin/slider/options_menu.php:56
+#: ../lib/admin/sociable/options_menu.php:56
+#: ../lib/admin/style_settings/options_menu.php:56
+msgid "Seo"
+msgstr ""
+
+#: ../lib/admin/advanced/options_menu.php:61
+#: ../lib/admin/blog/options_menu.php:61
+#: ../lib/admin/contact_form_settings/options_menu.php:61
+#: ../lib/admin/contact_settings/options_menu.php:61
+#: ../lib/admin/general_settings/options_menu.php:61
+#: ../lib/admin/home_settings/options_menu.php:61
+#: ../lib/admin/portfolio_settings/options_menu.php:61
+#: ../lib/admin/seo/options_menu.php:61
+#: ../lib/admin/services/options_menu.php:61
+#: ../lib/admin/slider/options_menu.php:61
+#: ../lib/admin/sociable/options_menu.php:61
+#: ../lib/admin/style_settings/options_menu.php:61
+#: ../lib/admin/theme_settings.php:29
+msgid "Advanced"
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:8
+msgid "Blog page layout"
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:13
+#: ../lib/admin/services/services_field_callbacks.php:41
+msgid "Please select"
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:14
+#: ../lib/admin/blog/blog_field_callbacks.php:19
+#: ../lib/admin/blog/blog_field_callbacks.php:22
+msgid "Show sidebar"
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:15
+#: ../lib/admin/blog/blog_field_callbacks.php:18
+#: ../lib/admin/blog/blog_field_callbacks.php:23
+msgid "Don`t show sidebar"
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:27
+msgid "Do you want to a show a sidebar on your blog page?"
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:40
+msgid "Read more text"
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:45
+msgid "You can define a custom ``Read more`` text for your blog pages."
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:57
+msgid "Don`t show the author"
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:62
+msgid "This option hides the author`s name on the blog page."
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:74
+msgid "Don`t show post dates"
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:79
+msgid "This option hides the post dates on the blog page."
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:91
+msgid "Don`t show categories"
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:96
+msgid "This option hides the category names on the blog page."
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:108
+msgid "Don`t show comments"
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:113
+msgid ""
+"This option hides the number of comments, but you cannot disable the "
+"comments completely by checking this checkbox."
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:125
+msgid "Older posts tooltip"
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:130
+msgid "You can edit the tool tip of the prev button on the blog page."
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:142
+msgid "Newer posts tooltip"
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:147
+msgid "You can edit the tool tip of the next button on the blog page."
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:159
+msgid "Comment form settings"
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:163
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:26
+msgid "Name label"
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:168
+msgid "The default value of the `Name` field in the comment form. REQUIRED."
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:181
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:98
+msgid "Missing name warning"
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:186
+msgid ""
+"If the user doesn`t fill the `Name` field, this message will be shown in the "
+"mentioned field. REQUIRED."
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:199
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:44
+msgid "Email label"
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:204
+msgid "The default value of the `Email` field in the comment form. REQUIRED."
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:217
+msgid "Website label"
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:222
+msgid ""
+"The default value of the `Website` field in the comment form. It isn`t "
+"required, but I recommend you to fill out."
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:235
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:116
+msgid "Missing email warning"
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:240
+msgid ""
+"If the user doesn`t fill the `Email` field, this message will be shown in "
+"the mentioned field. REQUIRED."
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:253
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:134
+msgid "Invalid email warning"
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:258
+msgid ""
+"If the user tries to sent the form with an invalid email address, this "
+"message will be shown in the email field. REQUIRED."
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:271
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:62
+msgid "Message label"
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:276
+msgid ""
+"The default value of the `Message` textarea in the comment form. REQUIRED."
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:289
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:152
+msgid "Missing message warning"
+msgstr ""
+
+#: ../lib/admin/blog/blog_field_callbacks.php:294
+msgid ""
+"If the user leave the the `Message` textarea empty, this message will be "
+"shown. REQUIRED."
+msgstr ""
+
+#: ../lib/admin/blog/blog_settings.php:23
+msgid "Blog settings"
+msgstr ""
+
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:13
+msgid "This email address will be the destination of the messages."
+msgstr ""
+
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:31
+msgid ""
+"The default value of the name field in the contact form. Required by the "
+"validation process."
+msgstr ""
+
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:40
+#: ../lib/home_sections/contact_section.php:46
+msgid "Your Email Address"
+msgstr ""
+
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:49
+msgid ""
+"The default value of the email field in the contact form. Required by the "
+"validation process."
+msgstr ""
+
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:58
+#: ../lib/home_sections/contact_section.php:57
+msgid "Message"
+msgstr ""
+
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:67
+msgid ""
+"The default value of the message textarea in the contact form. Required by "
+"the validation process."
+msgstr ""
+
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:76
+#: ../lib/home_sections/contact_section.php:67 ../template-contact.php:43
+msgid "OK"
+msgstr ""
+
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:80
+msgid "Send button label"
+msgstr ""
+
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:85
+msgid ""
+"The default label of the contact form button. Short values are recommended "
+"for the sake of the circle shape (for example: OK, GO )."
+msgstr ""
+
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:103
+msgid ""
+"If the user does not fill the name field before submit the form, this "
+"message will be shown. Required by the validation process."
+msgstr ""
+
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:121
+msgid ""
+"If the user does not fill the email field before submit the form, this "
+"message will be shown. Required by the validation process."
+msgstr ""
+
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:130
+#: ../lib/home_sections/contact_section.php:48
+msgid "Oh no! Invalid email address!"
+msgstr ""
+
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:139
+msgid ""
+"If the user are trying to submit the form with an invalid email address, "
+"this message will be shown. Required by the validation process."
+msgstr ""
+
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:148
+#: ../lib/home_sections/contact_section.php:58
+msgid "Do you wanna say sumthin?"
+msgstr ""
+
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:157
+msgid ""
+"If the user does not fill the message textarea before submit the form, this "
+"message will be shown. Required by the validation process."
+msgstr ""
+
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:169
+msgid "Error message color"
+msgstr ""
+
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:181
+#: ../lib/admin/services/services_field_callbacks.php:79
+#: ../lib/admin/style_settings/style_fields_callbacks.php:170
+#: ../lib/admin/style_settings/style_fields_callbacks.php:242
+#: ../lib/admin/style_settings/style_fields_callbacks.php:437
+#: ../lib/admin/style_settings/style_fields_callbacks.php:479
+#: ../lib/admin/style_settings/style_fields_callbacks.php:521
+#: ../lib/admin/style_settings/style_fields_callbacks.php:563
+#: ../lib/admin/style_settings/style_fields_callbacks.php:693
+#: ../lib/admin/style_settings/style_fields_callbacks.php:847
+#: ../lib/admin/style_settings/style_fields_callbacks.php:1161
+msgid "Choose color"
+msgstr ""
+
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:184
+msgid "You can specify a custom color for the error messages."
+msgstr ""
+
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:211
+msgid "Contact Form Message"
+msgstr ""
+
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:215
+msgid "Email subject"
+msgstr ""
+
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:220
+msgid ""
+"The subject of the emails sent via your contact form. Required by the "
+"contact form script."
+msgstr ""
+
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:229
+msgid "Wow! The form seems to work!"
+msgstr ""
+
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:233
+msgid "Thank you message"
+msgstr ""
+
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:238
+msgid ""
+"If the user sent the message succesfully, the form elements will disappear "
+"and this message will be shown. Required by the contact form script."
+msgstr ""
+
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:250
+msgid "Disable PhpMailer"
+msgstr ""
+
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:255
+msgid ""
+"If you do not receive emails via the contact form, try to disable PhpMailer. "
+"PhpMailer is a robust, reliable and widely used mail sending php class, but "
+"some servers does not support it. If you disable PhpMailer, the theme will "
+"use the classic mail() function instead."
+msgstr ""
+
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:267
+msgid "ContactForm 7 shortcode"
+msgstr ""
+
+#: ../lib/admin/contact_form_settings/contact_form_field_callbacks.php:272
+msgid ""
+"If you want to replace the default form with a contact form 7 form, paste "
+"the shortecode of the form here."
+msgstr ""
+
+#: ../lib/admin/contact_form_settings/contact_form_settings.php:23
+msgid "Contact form settings"
+msgstr ""
+
+#: ../lib/admin/contact_settings/contact_field_callbacks.php:5
+#: ../lib/home_sections/contact_section.php:115
+msgid "info@magna-themes.com"
+msgstr ""
+
+#: ../lib/admin/contact_settings/contact_field_callbacks.php:14
+msgid ""
+"This email address will be shown on the contact page / section, but will not "
+"be the destination of the contact form messages!"
+msgstr ""
+
+#: ../lib/admin/contact_settings/contact_field_callbacks.php:23
+#: ../lib/home_sections/contact_section.php:85
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel "
+"sapien non nunc semper tincidunt sed id lacus."
+msgstr ""
+
+#: ../lib/admin/contact_settings/contact_field_callbacks.php:27
+msgid "General information"
+msgstr ""
+
+#: ../lib/admin/contact_settings/contact_field_callbacks.php:42
+msgid ""
+"If you would like to write some important information assigned to your "
+"visitors, you can do it here. This text will be shown on the right side of "
+"the contact section, above of your email address."
+msgstr ""
+
+#: ../lib/admin/contact_settings/contact_field_callbacks.php:51
+#: ../lib/home_sections/contact_section.php:113
+msgid "2000 Fashion Show Dr., Las Vegas, 89109 NV"
+msgstr ""
+
+#: ../lib/admin/contact_settings/contact_field_callbacks.php:55
+msgid "Address"
+msgstr ""
+
+#: ../lib/admin/contact_settings/contact_field_callbacks.php:60
+msgid ""
+"The address where your potential customers can reach you. Will be shown "
+"under additional information."
+msgstr ""
+
+#: ../lib/admin/contact_settings/contact_field_callbacks.php:69
+#: ../lib/home_sections/contact_section.php:114
+msgid "+01 - 000 - 0000"
+msgstr ""
+
+#: ../lib/admin/contact_settings/contact_field_callbacks.php:73
+msgid "Your telephone number"
+msgstr ""
+
+#: ../lib/admin/contact_settings/contact_field_callbacks.php:78
+msgid "This text field is borned to store your telephone number."
+msgstr ""
+
+#: ../lib/admin/contact_settings/contact_settings.php:23
+#: ../lib/admin/contact_settings/contact_settings.php:63
+#: ../lib/admin/theme_settings.php:19
+msgid "Contact information"
+msgstr ""
+
+#: ../lib/admin/general_settings/general_field_callbacks.php:8
+msgid "Top Margin"
+msgstr ""
+
+#: ../lib/admin/general_settings/general_field_callbacks.php:68
+msgid "in pixels"
+msgstr ""
+
+#: ../lib/admin/general_settings/general_field_callbacks.php:71
+msgid ""
+"You can set the distance (in pixels) between the top of the viewport and "
+"your logo. The default value is 19px"
+msgstr ""
+
+#: ../lib/admin/general_settings/general_field_callbacks.php:83
+#: ../lib/admin/general_settings/general_field_callbacks.php:159
+#: ../lib/admin/general_settings/general_field_callbacks.php:244
+#: ../lib/admin/general_settings/general_field_callbacks.php:267
+#: ../lib/admin/style_settings/style_fields_callbacks.php:659
+msgid "Select Image"
+msgstr ""
+
+#: ../lib/admin/general_settings/general_field_callbacks.php:84
+#: ../lib/admin/general_settings/general_field_callbacks.php:160
+#: ../lib/admin/general_settings/general_field_callbacks.php:245
+#: ../lib/admin/general_settings/general_field_callbacks.php:268
+#: ../lib/admin/style_settings/style_fields_callbacks.php:660
+#: ../lib/shortcodes/tinymce.php:57
+msgid "Remove"
+msgstr ""
+
+#: ../lib/admin/general_settings/general_field_callbacks.php:87
+msgid "Site logo"
+msgstr ""
+
+#: ../lib/admin/general_settings/general_field_callbacks.php:94
+msgid ""
+"The full path to your logo. You can define it manually, but I recommend you "
+"to use the inbuilt media manager by clicking on the `Select Image` button. "
+"After you picked one image as your logo, click the `Insert into Post` to "
+"assign the url to the awaiting form field."
+msgstr ""
+
+#: ../lib/admin/general_settings/general_field_callbacks.php:109
+msgid "Logo width"
+msgstr ""
+
+#: ../lib/admin/general_settings/general_field_callbacks.php:114
+msgid "The width of the logo. It is optional."
+msgstr ""
+
+#: ../lib/admin/general_settings/general_field_callbacks.php:127
+msgid "Logo height"
+msgstr ""
+
+#: ../lib/admin/general_settings/general_field_callbacks.php:132
+msgid "The height of the logo. It is optional."
+msgstr ""
+
+#: ../lib/admin/general_settings/general_field_callbacks.php:144
+msgid "Logo alt text"
+msgstr ""
+
+#: ../lib/admin/general_settings/general_field_callbacks.php:149
+msgid "If the url of the logo is wrong, this text will substitute the image."
+msgstr ""
+
+#: ../lib/admin/general_settings/general_field_callbacks.php:163
+msgid "Admin logo"
+msgstr ""
+
+#: ../lib/admin/general_settings/general_field_callbacks.php:170
+msgid "You can replace the default `Wordpress` logo on the log in page."
+msgstr ""
+
+#: ../lib/admin/general_settings/general_field_callbacks.php:185
+msgid "Copyright text"
+msgstr ""
+
+#: ../lib/admin/general_settings/general_field_callbacks.php:190
+msgid ""
+"You can define a copyright text that will be appeared at the bottom of the "
+"page."
+msgstr ""
+
+#: ../lib/admin/general_settings/general_field_callbacks.php:202
+msgid "404 title"
+msgstr ""
+
+#: ../lib/admin/general_settings/general_field_callbacks.php:207
+msgid ""
+"Title of the 404 page. The server will typically generate `404 - Not Found` "
+"web page, when a user attempts to follow a broken or dead link."
+msgstr ""
+
+#: ../lib/admin/general_settings/general_field_callbacks.php:219
+msgid "404 content"
+msgstr ""
+
+#: ../lib/admin/general_settings/general_field_callbacks.php:234
+msgid "You can define the contents of the 404 page ( text only )."
+msgstr ""
+
+#: ../lib/admin/general_settings/general_field_callbacks.php:248
+msgid "Shortcut icon"
+msgstr ""
+
+#: ../lib/admin/general_settings/general_field_callbacks.php:255
+msgid "You can add a shortcut icon (favicon) to your site."
+msgstr ""
+
+#: ../lib/admin/general_settings/general_field_callbacks.php:271
+msgid "Apple touch icon"
+msgstr ""
+
+#: ../lib/admin/general_settings/general_field_callbacks.php:278
+msgid "An icon that users can add to the home screen of their smart devices."
+msgstr ""
+
+#: ../lib/admin/general_settings/general_settings.php:23
+msgid "General Settings"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:4
+#: ../template-homepage.php:13
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in sodales "
+"eros. Donec bibendum, lectus sit amet volutpat tristique, libero magna "
+"fringilla nibh, non tristique lorem dolor sit amet arcu."
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:8
+#: ../lib/admin/services/services_field_callbacks.php:9
+msgid "Intro text"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:23
+msgid ""
+"You can write an introduction text for your site. This text will be shown "
+"right above the slider on the homepage."
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:35
+msgid "Static video"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:40
+msgid ""
+"Insert the embed code into this textarea ( only the iframe! ). If you add a "
+"video to the homepage, the slider will be replaced with the video "
+"automatically!"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:52
+msgid "Section 1 content"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:71
+msgid "Select the content for the 1st section."
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:83
+msgid "Section 2 content"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:102
+msgid "Select the content for the 2nd section."
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:114
+msgid "Section 3 content"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:133
+msgid "Select the content for the 3rd section."
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:145
+msgid "Section 4 content"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:164
+msgid "Select the content for the fourth section."
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:176
+msgid "Section 5 content"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:195
+msgid "Select the content for the fifth section."
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:207
+msgid "Section 6 content"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:226
+msgid "Select the content for the sixth section."
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:238
+msgid "Section 7 content"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:257
+msgid "Select the content for the seventh section."
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:269
+msgid "Section 8 content"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:288
+msgid "Select the content for the eighth section."
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:300
+msgid "Section 9 content"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:319
+msgid "Select the content for the 9th section."
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:331
+msgid "Section 10 content"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:350
+msgid "Select the content for the 10th section."
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:363
+#: ../lib/admin/home_settings/home_field_callbacks.php:379
+msgid "Portfolio title"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:367
+#: ../lib/home_sections/portfolio_section.php:14
+msgid "our work"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:370
+#: ../lib/admin/home_settings/home_field_callbacks.php:384
+msgid ""
+"This is the title on the top of the portfolio section. For example: OUR WORK."
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:399
+#: ../lib/admin/home_settings/home_field_callbacks.php:415
+msgid "Services title"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:403
+#: ../lib/home_sections/services_section.php:14
+msgid "services"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:406
+#: ../lib/admin/home_settings/home_field_callbacks.php:420
+msgid ""
+"This is the title on the top of the services section. For example: OUR "
+"CAPABILITIES."
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:435
+#: ../lib/admin/home_settings/home_field_callbacks.php:451
+msgid "About title"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:439
+#: ../lib/misc/about.php:9 ../lib/misc/about.php:40 ../lib/misc/about.php:46
+msgid "about"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:442
+#: ../lib/admin/home_settings/home_field_callbacks.php:456
+msgid ""
+"This is the title on the top of the about section. For example: ABOUT US."
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:471
+#: ../lib/admin/home_settings/home_field_callbacks.php:487
+msgid "Contact title"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:475
+msgid "contact"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:478
+#: ../lib/admin/home_settings/home_field_callbacks.php:492
+msgid ""
+"This is the title on the top of the contact section. For example: CONTACT US."
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:507
+#: ../lib/home_sections/text1_section.php:13
+msgid "Text section1 title"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:511
+msgid "Text section 1"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:514
+#: ../lib/admin/home_settings/home_field_callbacks.php:528
+msgid ""
+"This is the title on the top of the first optional text section. This "
+"section is inactive in default."
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:523
+msgid "Text section 1 title"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:542
+msgid "Text section 1 content"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:558
+msgid ""
+"The content of the first additional text section. This section is inactive "
+"in default."
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:571
+#: ../lib/admin/home_settings/home_field_callbacks.php:587
+msgid "Text section 2 title"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:575
+msgid "Text section 2"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:578
+msgid ""
+"This is the title on the top of the second optional text section. This "
+"section is inactive in default."
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:592
+msgid "This is the title on the top of the second optional text section."
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:606
+msgid "Text section 2 content"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:622
+msgid ""
+"The content of the second additional text section. This section is inactive "
+"in default."
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:635
+#: ../lib/admin/home_settings/home_field_callbacks.php:651
+#: ../lib/home_sections/text3_section.php:13
+msgid "Text section 3 title"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:639
+msgid "Text section 3"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:642
+#: ../lib/admin/home_settings/home_field_callbacks.php:656
+msgid "This is the title on the top of the third optional text section."
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:670
+msgid "Text section 3 content"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:686
+msgid ""
+"The content of the third additional text section. This section is inactive "
+"in default."
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:699
+#: ../lib/admin/home_settings/home_field_callbacks.php:715
+msgid "Text section 4 title"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:703
+msgid "Text section 4"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:706
+#: ../lib/admin/home_settings/home_field_callbacks.php:720
+msgid "The title of the 4th optional text section."
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:734
+msgid "Text section 4 content"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:750
+msgid ""
+"The content of the 4th additional text section. This section is inactive in "
+"default."
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:763
+#: ../lib/admin/home_settings/home_field_callbacks.php:779
+#: ../lib/home_sections/text5_section.php:13
+msgid "Text section 5 title"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:767
+msgid "Text section 5"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:770
+#: ../lib/admin/home_settings/home_field_callbacks.php:784
+msgid "The title of the 5th optional text section."
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:798
+msgid "Text section 5 content"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:814
+msgid ""
+"The content of the 5th additional text section. This section is inactive in "
+"default."
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:826
+msgid "White space"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:851
+msgid ""
+"You can set the white space between the sections. The defaul value is 600 in "
+"pixels."
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:863
+msgid "Enable preloader"
+msgstr ""
+
+#: ../lib/admin/home_settings/home_field_callbacks.php:868
+msgid "Animated svg page prelader for media heavy websites."
+msgstr ""
+
+#: ../lib/admin/home_settings/home_settings.php:23
+msgid "Home Settings"
+msgstr ""
+
+#: ../lib/admin/portfolio_settings/portfolio_field_callbacks.php:230
+msgid ""
+"You can choose from two effects to show the ajax loaded portfolio items. One "
+"loads the item into a full screen overlay while the other shows the item "
+"inside the container element of the filter links."
+msgstr ""
+
+#: ../lib/admin/portfolio_settings/portfolio_settings.php:23
+msgid "Portfolio settings"
+msgstr ""
+
+#: ../lib/admin/seo/seo.php:23
+msgid "SEO Settings"
+msgstr ""
+
+#: ../lib/admin/seo/seo_field_callbacks.php:6
+msgid "Meta keywords"
+msgstr ""
+
+#: ../lib/admin/seo/seo_field_callbacks.php:11
+msgid ""
+"You can add keywords to your website here ( but don not forget separate them "
+"by commas ). In fact this is not a very important thing in the modern SEO, "
+"this is just an additional option for you :)"
+msgstr ""
+
+#: ../lib/admin/seo/seo_field_callbacks.php:22
+msgid "Meta description"
+msgstr ""
+
+#: ../lib/admin/seo/seo_field_callbacks.php:27
+msgid ""
+"Define a description for your website. This is an importan tag, because the "
+"content of this element tells the search engine what your site is about."
+msgstr ""
+
+#: ../lib/admin/services/services_field_callbacks.php:5
+#: ../lib/home_sections/services_section.php:25
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis "
+"tincidunt sagittis."
+msgstr ""
+
+#: ../lib/admin/services/services_field_callbacks.php:24
+msgid ""
+"You can write an overall description about all of your services. This text "
+"will be shown right above your services."
+msgstr ""
+
+#: ../lib/admin/services/services_field_callbacks.php:36
+msgid "Services Layout"
+msgstr ""
+
+#: ../lib/admin/services/services_field_callbacks.php:42
+#: ../lib/admin/services/services_field_callbacks.php:46
+#: ../lib/admin/services/services_field_callbacks.php:51
+msgid "1 service per row"
+msgstr ""
+
+#: ../lib/admin/services/services_field_callbacks.php:43
+#: ../lib/admin/services/services_field_callbacks.php:47
+#: ../lib/admin/services/services_field_callbacks.php:50
+msgid "3 services per row"
+msgstr ""
+
+#: ../lib/admin/services/services_field_callbacks.php:55
+msgid ""
+"How do you want to show your services? If you don`t intend to use long "
+"description for your services, I recommend you to pick the boxed (3 services "
+"per row) layout. Otherwise the `1 service per row` option will be the best "
+"for you."
+msgstr ""
+
+#: ../lib/admin/services/services_field_callbacks.php:67
+msgid "Circle background"
+msgstr ""
+
+#: ../lib/admin/services/services_field_callbacks.php:82
+msgid "You can change the background color of the icon container circles."
+msgstr ""
+
+#: ../lib/admin/slider/slider_field_callbacks.php:7
+msgid "Slider width"
+msgstr ""
+
+#: ../lib/admin/slider/slider_field_callbacks.php:18
+msgid "The width of the slider in pixels. The deafault value is 700"
+msgstr ""
+
+#: ../lib/admin/slider/slider_field_callbacks.php:30
+msgid "Animation"
+msgstr ""
+
+#: ../lib/admin/slider/slider_field_callbacks.php:36
+#: ../lib/admin/slider/slider_field_callbacks.php:47
+#: ../lib/slider/slider.php:8
+msgid "Slide"
+msgstr ""
+
+#: ../lib/admin/slider/slider_field_callbacks.php:37
+#: ../lib/admin/slider/slider_field_callbacks.php:44
+msgid "Fade"
+msgstr ""
+
+#: ../lib/admin/slider/slider_field_callbacks.php:53
+msgid "Select your animation type, `fade` or `slide`"
+msgstr ""
+
+#: ../lib/admin/slider/slider_field_callbacks.php:64
+msgid "Sliding direction"
+msgstr ""
+
+#: ../lib/admin/slider/slider_field_callbacks.php:72
+#: ../lib/admin/slider/slider_field_callbacks.php:78
+#: ../lib/admin/slider/slider_field_callbacks.php:84
+msgid "Horizontal"
+msgstr ""
+
+#: ../lib/admin/slider/slider_field_callbacks.php:73
+#: ../lib/admin/slider/slider_field_callbacks.php:79
+#: ../lib/admin/slider/slider_field_callbacks.php:85
+msgid "Vertical"
+msgstr ""
+
+#: ../lib/admin/slider/slider_field_callbacks.php:90
+msgid ""
+"Select the sliding direction, `horizontal` or `vertical`. It works only, if "
+"the `slide` animation has been selected in the prev option."
+msgstr ""
+
+#: ../lib/admin/slider/slider_field_callbacks.php:102
+msgid "Auto play"
+msgstr ""
+
+#: ../lib/admin/slider/slider_field_callbacks.php:109
+#: ../lib/admin/slider/slider_field_callbacks.php:114
+#: ../lib/admin/slider/slider_field_callbacks.php:118
+#: ../lib/admin/slider/slider_field_callbacks.php:187
+#: ../lib/admin/slider/slider_field_callbacks.php:191
+#: ../lib/admin/slider/slider_field_callbacks.php:195
+#: ../lib/admin/slider/slider_field_callbacks.php:256
+#: ../lib/admin/slider/slider_field_callbacks.php:260
+#: ../lib/admin/slider/slider_field_callbacks.php:285
+#: ../lib/admin/slider/slider_field_callbacks.php:289
+#: ../lib/admin/slider/slider_field_callbacks.php:293
+#: ../lib/admin/slider/slider_field_callbacks.php:318
+#: ../lib/admin/slider/slider_field_callbacks.php:322
+#: ../lib/admin/slider/slider_field_callbacks.php:326
+msgid "True"
+msgstr ""
+
+#: ../lib/admin/slider/slider_field_callbacks.php:110
+#: ../lib/admin/slider/slider_field_callbacks.php:113
+#: ../lib/admin/slider/slider_field_callbacks.php:117
+#: ../lib/admin/slider/slider_field_callbacks.php:188
+#: ../lib/admin/slider/slider_field_callbacks.php:192
+#: ../lib/admin/slider/slider_field_callbacks.php:196
+#: ../lib/admin/slider/slider_field_callbacks.php:252
+#: ../lib/admin/slider/slider_field_callbacks.php:257
+#: ../lib/admin/slider/slider_field_callbacks.php:261
+#: ../lib/admin/slider/slider_field_callbacks.php:286
+#: ../lib/admin/slider/slider_field_callbacks.php:290
+#: ../lib/admin/slider/slider_field_callbacks.php:294
+#: ../lib/admin/slider/slider_field_callbacks.php:319
+#: ../lib/admin/slider/slider_field_callbacks.php:323
+#: ../lib/admin/slider/slider_field_callbacks.php:327
+msgid "False"
+msgstr ""
+
+#: ../lib/admin/slider/slider_field_callbacks.php:122
+msgid "Play the slide show automatically."
+msgstr ""
+
+#: ../lib/admin/slider/slider_field_callbacks.php:134
+#: ../lib/admin/slider/slider_settings2.php:52
+#: ../lib/admin/slider/slider_settings2.php:53
+msgid "Slideshow speed"
+msgstr ""
+
+#: ../lib/admin/slider/slider_field_callbacks.php:145
+msgid "Set the speed of the slideshow cycling, in milliseconds."
+msgstr ""
+
+#: ../lib/admin/slider/slider_field_callbacks.php:157
+msgid "Animation speed"
+msgstr ""
+
+#: ../lib/admin/slider/slider_field_callbacks.php:168
+msgid "Set the speed of animations, in milliseconds."
+msgstr ""
+
+#: ../lib/admin/slider/slider_field_callbacks.php:180
+#: ../lib/admin/slider/slider_settings2.php:54
+msgid "Allow Prev/Next buttons?"
+msgstr ""
+
+#: ../lib/admin/slider/slider_field_callbacks.php:201
+msgid "Create navigation for previous/next navigation? (true/false)."
+msgstr ""
+
+#: ../lib/admin/slider/slider_field_callbacks.php:212
+msgid "Allow ControlNav?"
+msgstr ""
+
+#: ../lib/admin/slider/slider_field_callbacks.php:220
+#: ../lib/admin/slider/slider_field_callbacks.php:224
+#: ../lib/admin/slider/slider_field_callbacks.php:228
+#: ../lib/admin/slider/slider_field_callbacks.php:251
+msgid "true"
+msgstr ""
+
+#: ../lib/admin/slider/slider_field_callbacks.php:221
+#: ../lib/admin/slider/slider_field_callbacks.php:225
+#: ../lib/admin/slider/slider_field_callbacks.php:229
+msgid "false"
+msgstr ""
+
+#: ../lib/admin/slider/slider_field_callbacks.php:234
+msgid "Create navigation for paging control of each slide?"
+msgstr ""
+
+#: ../lib/admin/slider/slider_field_callbacks.php:245
+msgid "Keyboard navigation"
+msgstr ""
+
+#: ../lib/admin/slider/slider_field_callbacks.php:266
+msgid "Allow slider navigating via keyboard left/right keys?"
+msgstr ""
+
+#: ../lib/admin/slider/slider_field_callbacks.php:278
+msgid "Mousewheel navigation?"
+msgstr ""
+
+#: ../lib/admin/slider/slider_field_callbacks.php:299
+msgid "Allows slider navigating via mousewheel."
+msgstr ""
+
+#: ../lib/admin/slider/slider_field_callbacks.php:310
+msgid "Randomize"
+msgstr ""
+
+#: ../lib/admin/slider/slider_field_callbacks.php:332
+msgid "Randomize slide order."
+msgstr ""
+
+#: ../lib/admin/slider/slider_field_callbacks.php:343
+#: ../lib/admin/slider/slider_settings2.php:59
+msgid "Slide to start"
+msgstr ""
+
+#: ../lib/admin/slider/slider_field_callbacks.php:354
+msgid "The slide that the slider should start on. 0 = first slide."
+msgstr ""
+
+#: ../lib/admin/slider/slider_settings.php:72
+#: ../lib/admin/slider/slider_settings2.php:44
+msgid "Slider settings"
+msgstr ""
+
+#: ../lib/admin/slider/slider_settings2.php:49
+msgid "Select your animation type"
+msgstr ""
+
+#: ../lib/admin/slider/slider_settings2.php:50
+msgid "Select the sliding direction"
+msgstr ""
+
+#: ../lib/admin/slider/slider_settings2.php:51
+msgid "Animate slider automatically"
+msgstr ""
+
+#: ../lib/admin/slider/slider_settings2.php:55
+msgid "ControlNav?"
+msgstr ""
+
+#: ../lib/admin/slider/slider_settings2.php:56
+msgid "Allow keyboard navigation?"
+msgstr ""
+
+#: ../lib/admin/slider/slider_settings2.php:57
+msgid "Allow mousewheel navigation?"
+msgstr ""
+
+#: ../lib/admin/slider/slider_settings2.php:58
+msgid "Randomize slide order?"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable.php:30
+msgid ""
+"You can edit your social media profiles here. Every social media icon based\n"
+"                    on the following logic: there are an url and a tooltip "
+"text assigned to the same social icon. \n"
+"                    If you fill the url, the inbuilt icon will be shown as "
+"link. If you leave the url field empty, \n"
+"                    the social icon stays hidden. The url must be a valid "
+"url ( don`t forget the http:// )!"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:8
+msgid "Facebook page url"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:22
+msgid "Facebook icon tooltip"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:36
+msgid "Twitter url"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:50
+msgid "Twitter icon tooltip"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:64
+msgid "Rss url"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:78
+msgid "Rss icon tooltip"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:92
+msgid "Dribble profile url"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:106
+msgid "Dribble icon tooltip"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:120
+msgid "Skype address"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:134
+msgid "Skype icon tooltip"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:148
+msgid "Youtube channel"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:162
+msgid "Youtube icon tooltip"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:176
+msgid "Vimeo channel"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:190
+msgid "Vimeo icon tooltip"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:204
+msgid "LinkedIn profile url"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:218
+msgid "LinkedIn icon tooltip"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:232
+msgid "DeviantArt profile url"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:246
+msgid "DeviantArt icon tooltip"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:260
+msgid "Tumblr blog"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:274
+msgid "Tumblr icon tooltip"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:288
+msgid "Pinterest url"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:302
+msgid "Pinterest icon tooltip"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:316
+msgid "Google plus url"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:330
+msgid "Google plus icon tooltip"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:344
+msgid "Instagram url"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:358
+msgid "Instagram icon tooltip"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:372
+msgid "SoundCloud url"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:386
+msgid "SoundCloud icon tooltip"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:400
+msgid "Github url"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:414
+msgid "Github icon tooltip"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:428
+msgid "Flickr url"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:442
+msgid "Flickr icon tooltip"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:456
+msgid "Behance url"
+msgstr ""
+
+#: ../lib/admin/sociable/sociable_field_callbacks.php:470
+msgid "Behance icon tooltip"
+msgstr ""
+
+#: ../lib/admin/style_settings/style_fields_callbacks.php:8
+msgid "Body font"
+msgstr ""
+
+#: ../lib/admin/style_settings/style_fields_callbacks.php:120
+msgid "Body font size"
+msgstr ""
+
+#: ../lib/admin/style_settings/style_fields_callbacks.php:158
+msgid "Body font color"
+msgstr ""
+
+#: ../lib/admin/style_settings/style_fields_callbacks.php:200
+msgid "Letter spacing"
+msgstr ""
+
+#: ../lib/admin/style_settings/style_fields_callbacks.php:230
+msgid "Link color"
+msgstr ""
+
+#: ../lib/admin/style_settings/style_fields_callbacks.php:272
+msgid "Menu font"
+msgstr ""
+
+#: ../lib/admin/style_settings/style_fields_callbacks.php:383
+msgid "Menu font size"
+msgstr ""
+
+#: ../lib/admin/style_settings/style_fields_callbacks.php:425
+msgid "Menu font color"
+msgstr ""
+
+#: ../lib/admin/style_settings/style_fields_callbacks.php:467
+msgid "Hidden menu background"
+msgstr ""
+
+#: ../lib/admin/style_settings/style_fields_callbacks.php:509
+msgid "Hidden menu font color"
+msgstr ""
+
+#: ../lib/admin/style_settings/style_fields_callbacks.php:551
+msgid "Background color"
+msgstr ""
+
+#: ../lib/admin/style_settings/style_fields_callbacks.php:593
+msgid "Background pattern"
+msgstr ""
+
+#: ../lib/admin/style_settings/style_fields_callbacks.php:646
+msgid "Show More"
+msgstr ""
+
+#: ../lib/admin/style_settings/style_fields_callbacks.php:649
+msgid "Show Less"
+msgstr ""
+
+#: ../lib/admin/style_settings/style_fields_callbacks.php:663
+msgid "Background image"
+msgstr ""
+
+#: ../lib/admin/style_settings/style_fields_callbacks.php:681
+msgid "Line color"
+msgstr ""
+
+#: ../lib/admin/style_settings/style_fields_callbacks.php:723
+msgid "Heading font"
+msgstr ""
+
+#: ../lib/admin/style_settings/style_fields_callbacks.php:835
+msgid "Heading font color"
+msgstr ""
+
+#: ../lib/admin/style_settings/style_fields_callbacks.php:877
+msgid "Intro text font"
+msgstr ""
+
+#: ../lib/admin/style_settings/style_fields_callbacks.php:883
+#: ../lib/admin/style_settings/style_fields_callbacks.php:890
+msgid "Inherited"
+msgstr ""
+
+#: ../lib/admin/style_settings/style_fields_callbacks.php:984
+msgid "Inherited from the headings by default."
+msgstr ""
+
+#: ../lib/admin/style_settings/style_fields_callbacks.php:996
+msgid "Intro text font size"
+msgstr ""
+
+#: ../lib/admin/style_settings/style_fields_callbacks.php:1038
+msgid "Section title font"
+msgstr ""
+
+#: ../lib/admin/style_settings/style_fields_callbacks.php:1149
+msgid "Section title color"
+msgstr ""
+
+#: ../lib/admin/style_settings/style_settings.php:23
+msgid "Style options"
+msgstr ""
+
+#: ../lib/admin/style_settings/style_settings.php:30
+msgid ""
+"Here you can control the font families, font sizes and the colors of your "
+"website.\n"
+"                         If you would like to try the different colors and "
+"fonts in action, just visit the\n"
+"                         <a href=\"http://magna-themes.com/demos/wordpress/"
+"me/\" target=\"_blank\">demo site.</a> I believe\n"
+"                         you will understand these options without "
+"explanation, and hope you will enjoy the customization."
+msgstr ""
+
+#: ../lib/admin/theme_settings.php:7
+msgid "Theme settings"
+msgstr ""
+
+#: ../lib/admin/theme_settings.php:9
+msgid "Edit styles"
+msgstr ""
+
+#: ../lib/admin/theme_settings.php:19
+msgid "Contact Info"
+msgstr ""
+
+#: ../lib/admin/theme_settings.php:21
+msgid "Contact Form"
+msgstr ""
+
+#: ../lib/admin/theme_settings.php:27
+msgid "SEO"
+msgstr ""
+
+#: ../lib/home_sections/about_section.php:14
+msgid "about me"
+msgstr ""
+
+#: ../lib/home_sections/contact_section.php:14
+msgid "CONTACT"
+msgstr ""
+
+#: ../lib/home_sections/portfolio_section.php:30 ../template-portfolio.php:24
+msgid "All projects"
+msgstr ""
+
+#: ../lib/home_sections/text2_section.php:13
+msgid "Text section2 title"
+msgstr ""
+
+#: ../lib/home_sections/text4_section.php:13
+msgid "Text section4 title"
+msgstr ""
+
+#: ../lib/misc/about.php:6
+msgid "About"
+msgstr ""
+
+#: ../lib/misc/about.php:7
+msgid "Person"
+msgstr ""
+
+#: ../lib/misc/about.php:12
+msgid "Add New Person"
+msgstr ""
+
+#: ../lib/misc/about.php:13
+msgid "Edit Person"
+msgstr ""
+
+#: ../lib/misc/about.php:14
+msgid "New Person"
+msgstr ""
+
+#: ../lib/misc/about.php:15
+msgid "Preview About Section"
+msgstr ""
+
+#: ../lib/misc/about.php:16 ../lib/portfolio/portfolio.php:17
+msgid "Search Portfolio"
+msgstr ""
+
+#: ../lib/misc/about.php:17
+msgid "No Persons Found"
+msgstr ""
+
+#: ../lib/misc/about.php:18
+msgid "No Persons Found In Trash"
+msgstr ""
+
+#: ../lib/misc/about.php:49
+msgid "Informations Updated."
+msgstr ""
+
+#: ../lib/misc/about.php:50 ../lib/portfolio/portfolio.php:53
+#: ../lib/services/services.php:50 ../lib/slider/slider.php:49
+msgid "Custom Field Updated."
+msgstr ""
+
+#: ../lib/misc/about.php:51 ../lib/portfolio/portfolio.php:54
+#: ../lib/services/services.php:51 ../lib/slider/slider.php:50
+msgid "Custom Field Deleted."
+msgstr ""
+
+#: ../lib/misc/about.php:52
+msgid "About Page Updated."
+msgstr ""
+
+#: ../lib/misc/about.php:53
+#, php-format
+msgid "Person Restored To Revision From %s"
+msgstr ""
+
+#: ../lib/misc/about.php:54
+msgid "Person Published."
+msgstr ""
+
+#: ../lib/misc/about.php:55
+msgid "Person Saved."
+msgstr ""
+
+#: ../lib/misc/about.php:56
+msgid "Person Submitted."
+msgstr ""
+
+#: ../lib/misc/about.php:57
+#, php-format
+msgid "Person Scheduled For: <strong>%1$s</strong>."
+msgstr ""
+
+#: ../lib/misc/about.php:57 ../lib/portfolio/portfolio.php:60
+#: ../lib/services/services.php:57
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: ../lib/misc/about.php:58
+msgid "Draft Updated."
+msgstr ""
+
+#: ../lib/misc/about.php:78
+msgid "Title (short intro)"
+msgstr ""
+
+#: ../lib/misc/about.php:79
+msgid "Profile picture"
+msgstr ""
+
+#: ../lib/misc/about_metaboxes.php:7
+msgid "Social profiles"
+msgstr ""
+
+#: ../lib/misc/about_metaboxes.php:20
+msgid "Facebook"
+msgstr ""
+
+#: ../lib/misc/about_metaboxes.php:26
+msgid "Twitter"
+msgstr ""
+
+#: ../lib/misc/about_metaboxes.php:32
+msgid "Instagram"
+msgstr ""
+
+#: ../lib/misc/about_metaboxes.php:38
+msgid "Dribbble"
+msgstr ""
+
+#: ../lib/misc/about_metaboxes.php:44
+msgid "Skype"
+msgstr ""
+
+#: ../lib/misc/about_metaboxes.php:50
+msgid "Youtube"
+msgstr ""
+
+#: ../lib/misc/about_metaboxes.php:56
+msgid "Vimeo"
+msgstr ""
+
+#: ../lib/misc/about_metaboxes.php:62
+msgid "LinkedIn"
+msgstr ""
+
+#: ../lib/misc/about_metaboxes.php:68
+msgid "Tumblr"
+msgstr ""
+
+#: ../lib/misc/about_metaboxes.php:74
+msgid "Pinterest"
+msgstr ""
+
+#: ../lib/misc/about_metaboxes.php:80
+msgid "Google Plus"
+msgstr ""
+
+#: ../lib/misc/about_metaboxes.php:86
+msgid "DeviantArt"
+msgstr ""
+
+#: ../lib/misc/about_metaboxes.php:92
+msgid "SoundCloud"
+msgstr ""
+
+#: ../lib/misc/about_metaboxes.php:98
+msgid "Flickr"
+msgstr ""
+
+#: ../lib/misc/about_metaboxes.php:104
+msgid "Behance"
+msgstr ""
+
+#: ../lib/misc/head_js.php:8
+msgid "NAVIGATION"
+msgstr ""
+
+#: ../lib/misc/head_js.php:59
+msgid "Older posts"
+msgstr ""
+
+#: ../lib/misc/head_js.php:59
+msgid "Newer posts"
+msgstr ""
+
+#: ../lib/misc/misc.php:32
+msgid ""
+"This post is password protected. Please enter the password to view the post."
+msgstr ""
+
+#: ../lib/misc/misc.php:33
+msgid "PASSWORD:"
+msgstr ""
+
+#: ../lib/misc/misc.php:35
+msgid "Submit"
+msgstr ""
+
+#: ../lib/misc/single_template_metabox.php:7
+#: ../lib/misc/single_template_metabox.php:20
+#: ../lib/portfolio/portfolio_metaboxes.php:20
+msgid "Layout"
+msgstr ""
+
+#: ../lib/misc/single_template_metabox.php:22
+#: ../lib/portfolio/portfolio_metaboxes.php:22
+msgid "layout"
+msgstr ""
+
+#: ../lib/misc/single_template_metabox.php:44
+#: ../lib/misc/single_template_metabox.php:55
+#: ../lib/misc/single_template_metabox.php:69
+msgid "Display sidebar"
+msgstr ""
+
+#: ../lib/misc/single_template_metabox.php:47
+#: ../lib/misc/single_template_metabox.php:58
+#: ../lib/misc/single_template_metabox.php:66
+msgid "Don`t display sidebar"
+msgstr ""
+
+#: ../lib/misc/widgets.php:8
+msgid "Sidebar"
+msgstr ""
+
+#: ../lib/portfolio/portfolio.php:8
+msgid "Portfolio item"
+msgstr ""
+
+#: ../lib/portfolio/portfolio.php:10 ../lib/portfolio/portfolio.php:41
+#: ../lib/portfolio/portfolio.php:49 ../lib/portfolio/portfolio.php:72
+msgid "portfolio"
+msgstr ""
+
+#: ../lib/portfolio/portfolio.php:12
+msgid "Add Item"
+msgstr ""
+
+#: ../lib/portfolio/portfolio.php:13
+msgid "Add New Item"
+msgstr ""
+
+#: ../lib/portfolio/portfolio.php:14
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: ../lib/portfolio/portfolio.php:15
+msgid "New Portfolio Item"
+msgstr ""
+
+#: ../lib/portfolio/portfolio.php:16
+msgid "Preview item"
+msgstr ""
+
+#: ../lib/portfolio/portfolio.php:18
+msgid "No Portfolio Items Found"
+msgstr ""
+
+#: ../lib/portfolio/portfolio.php:19
+msgid "No Portfolio Items Found In Trash"
+msgstr ""
+
+#: ../lib/portfolio/portfolio.php:52 ../lib/portfolio/portfolio.php:55
+msgid "Portfolio Updated."
+msgstr ""
+
+#: ../lib/portfolio/portfolio.php:56
+#, php-format
+msgid "Portfolio Restored To Revision From %s"
+msgstr ""
+
+#: ../lib/portfolio/portfolio.php:57
+msgid "Portfolio Item Published."
+msgstr ""
+
+#: ../lib/portfolio/portfolio.php:58
+msgid "Portfolio Item Saved."
+msgstr ""
+
+#: ../lib/portfolio/portfolio.php:59
+msgid "Portfolio Item Submitted."
+msgstr ""
+
+#: ../lib/portfolio/portfolio.php:60
+#, php-format
+msgid "Portfolio Item Scheduled For: <strong>%1$s</strong>."
+msgstr ""
+
+#: ../lib/portfolio/portfolio.php:61
+msgid "Portfolio Item Draft Updated."
+msgstr ""
+
+#: ../lib/portfolio/portfolio.php:71
+msgid "filter"
+msgstr ""
+
+#: ../lib/portfolio/portfolio.php:75
+msgid "Categories"
+msgstr ""
+
+#: ../lib/portfolio/portfolio.php:76
+msgid "Filter"
+msgstr ""
+
+#: ../lib/portfolio/portfolio.php:98
+msgid "Project name"
+msgstr ""
+
+#: ../lib/portfolio/portfolio.php:99
+msgid "Category"
+msgstr ""
+
+#: ../lib/portfolio/portfolio.php:100
+msgid "Thumbnail"
+msgstr ""
+
+#: ../lib/portfolio/portfolio_metaboxes.php:7
+#: ../lib/slider/slider_metaboxes.php:7
+msgid "Add more content to the item"
+msgstr ""
+
+#: ../lib/portfolio/portfolio_metaboxes.php:26
+msgid "Repeatable"
+msgstr ""
+
+#: ../lib/portfolio/portfolio_metaboxes.php:28
+msgid "repeatable"
+msgstr ""
+
+#: ../lib/portfolio/portfolio_metaboxes.php:32
+#: ../lib/shortcodes/tinymce.php:50
+msgid "Vimeo video"
+msgstr ""
+
+#: ../lib/portfolio/portfolio_metaboxes.php:33
+msgid "Vimeo &lt;iframe> code"
+msgstr ""
+
+#: ../lib/portfolio/portfolio_metaboxes.php:38
+#: ../lib/shortcodes/tinymce.php:44
+msgid "Youtube video"
+msgstr ""
+
+#: ../lib/portfolio/portfolio_metaboxes.php:39
+msgid "Youtube &lt;iframe> code"
+msgstr ""
+
+#: ../lib/portfolio/portfolio_metaboxes.php:44
+msgid "SoundCloud player"
+msgstr ""
+
+#: ../lib/portfolio/portfolio_metaboxes.php:45
+msgid "SoundCloud &lt;iframe> code"
+msgstr ""
+
+#: ../lib/portfolio/portfolio_metaboxes.php:50
+#: ../lib/portfolio/portfolio_metaboxes.php:51
+msgid "Link to the project"
+msgstr ""
+
+#: ../lib/portfolio/portfolio_metaboxes.php:56
+msgid "Optional project page url"
+msgstr ""
+
+#: ../lib/portfolio/portfolio_metaboxes.php:57
+msgid ""
+"Must be a valid url with <strong>http://</strong> ! Use this option in case "
+"you want to show the project on a different page instead of loading via "
+"ajax. For sure the thumbnails can link to a page of a third party site such "
+"as Behance or Dribbble."
+msgstr ""
+
+#: ../lib/portfolio/portfolio_metaboxes.php:62
+msgid "Lightbox Image"
+msgstr ""
+
+#: ../lib/portfolio/portfolio_metaboxes.php:180
+msgid "Slider images"
+msgstr ""
+
+#: ../lib/portfolio/portfolio_metaboxes.php:183
+msgid "Add new image"
+msgstr ""
+
+#: ../lib/portfolio/portfolio_metaboxes.php:193
+#: ../lib/portfolio/portfolio_metaboxes.php:207
+#: ../lib/portfolio/portfolio_metaboxes.php:268
+#: ../lib/services/service_metaboxes.php:1016
+#: ../lib/services/service_metaboxes.php:1030
+msgid "Select image"
+msgstr ""
+
+#: ../lib/portfolio/portfolio_metaboxes.php:197
+#: ../lib/portfolio/portfolio_metaboxes.php:211
+#: ../lib/portfolio/portfolio_metaboxes.php:272
+#: ../lib/services/service_metaboxes.php:1020
+#: ../lib/services/service_metaboxes.php:1034
+msgid "Remove image"
+msgstr ""
+
+#: ../lib/services/service_metaboxes.php:7
+msgid "Add an icon to this service"
+msgstr ""
+
+#: ../lib/services/service_metaboxes.php:20
+msgid "Select a predesigned, high resolution icon."
+msgstr ""
+
+#: ../lib/services/service_metaboxes.php:21
+msgid "Predesigned, high resolution icons."
+msgstr ""
+
+#: ../lib/services/service_metaboxes.php:26
+msgid "Custom icon."
+msgstr ""
+
+#: ../lib/services/service_metaboxes.php:27
+msgid "Custom icon"
+msgstr ""
+
+#: ../lib/services/service_metaboxes.php:32
+msgid "Custom icon dimensions ( optional )"
+msgstr ""
+
+#: ../lib/services/service_metaboxes.php:33
+msgid ""
+"Retina and HD screens have four times more pixels than standard screens. If "
+"you want to show a 48 x 40 icon, you need to use an 96 x 80 alternative to "
+"render it well on a high-density display, but you need to define the width "
+"and height of your icon in the fields above, otherwise the browser will "
+"render the icon in the bigger size automatically ( In this example you have "
+"to type 48 into the width and 40 into the height field ). Please use NUMBERS "
+"ONLY! If you do not care about retina screens, just upload your icon and "
+"leave the width and height fields empty."
+msgstr ""
+
+#: ../lib/services/service_metaboxes.php:38
+msgid "Height"
+msgstr ""
+
+#: ../lib/services/service_metaboxes.php:39
+msgid "Dimensions"
+msgstr ""
+
+#: ../lib/services/service_metaboxes.php:44
+msgid "External Url"
+msgstr ""
+
+#: ../lib/services/service_metaboxes.php:45
+msgid ""
+"Must be a full valid url with <strong>http://</strong> ! You can use this "
+"option in case the <br /> contents of the service item is stored on a page "
+"or hosted by a third party site."
+msgstr ""
+
+#: ../lib/services/service_metaboxes.php:1054
+#: ../lib/services/service_metaboxes.php:1055
+msgid "Width:"
+msgstr ""
+
+#: ../lib/services/service_metaboxes.php:1058
+#: ../lib/services/service_metaboxes.php:1059
+msgid "Height:"
+msgstr ""
+
+#: ../lib/services/services.php:7
+msgid "Service"
+msgstr ""
+
+#: ../lib/services/services.php:9 ../lib/services/services.php:40
+#: ../lib/services/services.php:46
+msgid "service"
+msgstr ""
+
+#: ../lib/services/services.php:11
+msgid "Add Service"
+msgstr ""
+
+#: ../lib/services/services.php:12
+msgid "Add New Service"
+msgstr ""
+
+#: ../lib/services/services.php:13
+msgid "Edit Service"
+msgstr ""
+
+#: ../lib/services/services.php:14
+msgid "New Service"
+msgstr ""
+
+#: ../lib/services/services.php:15
+msgid "Preview Services Section"
+msgstr ""
+
+#: ../lib/services/services.php:16
+msgid "Search Services"
+msgstr ""
+
+#: ../lib/services/services.php:17
+msgid "No Services Found"
+msgstr ""
+
+#: ../lib/services/services.php:18
+msgid "No Services Found In Trash"
+msgstr ""
+
+#: ../lib/services/services.php:49
+msgid "Service Updated."
+msgstr ""
+
+#: ../lib/services/services.php:52
+msgid "Services Updated."
+msgstr ""
+
+#: ../lib/services/services.php:53
+#, php-format
+msgid "Service Restored To Revision From %s"
+msgstr ""
+
+#: ../lib/services/services.php:54
+msgid "Service Information Published."
+msgstr ""
+
+#: ../lib/services/services.php:55
+msgid "Service Information Saved."
+msgstr ""
+
+#: ../lib/services/services.php:56
+msgid "Service Information Submitted."
+msgstr ""
+
+#: ../lib/services/services.php:57
+#, php-format
+msgid "Service Information Scheduled For: <strong>%1$s</strong>."
+msgstr ""
+
+#: ../lib/services/services.php:58
+msgid "Service Information Draft Updated."
+msgstr ""
+
+#: ../lib/services/services.php:68
+msgid "Service name"
+msgstr ""
+
+#: ../lib/services/services.php:69
+msgid "Description"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:28
+msgid "Shortcodes"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:39
+msgid "Image frame"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:40
+msgid "Image frame with title"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:41
+msgid "Image frame witht title and description"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:45
+msgid "Youtube video frame"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:46
+msgid "Youtube video frame with title"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:47
+msgid "Youtube video frame with title and description"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:51
+msgid "Vimeo video frame"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:52
+msgid "Vimeo video frame with title"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:53
+msgid "Vimeo video frame with title and description"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:56
+msgid "Check"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:58
+msgid "Settings"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:59
+msgid "User"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:60
+msgid "Add"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:61
+msgid "Undo"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:62
+msgid "Redo"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:63
+msgid "Speech bubble"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:64
+msgid "Attention"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:65
+msgid "Telephone"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:66
+msgid "Lock"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:67
+msgid "Mail"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:70
+msgid "h1"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:71
+msgid "h2"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:72
+msgid "h3"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:73
+msgid "h4"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:74
+msgid "h5"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:75
+msgid "h6"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:78
+msgid "1/1"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:79
+msgid "1/2"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:80
+msgid "1/2 last"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:81
+msgid "1/3"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:82
+msgid "1/3 last"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:83
+msgid "2/3"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:84
+msgid "2/3 last"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:85
+msgid "1/4"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:86
+msgid "1/4 last"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:87
+msgid "2/4"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:88
+msgid "2/4 last"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:89
+msgid "3/4"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:90
+msgid "3/4 last"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:91
+msgid "1/5"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:92
+msgid "1/5 last"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:93
+msgid "2/5"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:94
+msgid "2/5 last"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:95
+msgid "3/5"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:96
+msgid "3/5 last"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:97
+msgid "4/5"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:98
+msgid "4/5 last"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce.php:104
+msgid "Insert"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce_lang.php:5
+msgid "The full path to the image"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce_lang.php:6
+msgid "Image title"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce_lang.php:7
+msgid "Image description"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce_lang.php:8
+msgid "Video id"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce_lang.php:9
+msgid "Video title"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce_lang.php:10
+msgid "Video description"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce_lang.php:11
+msgid "Item"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce_lang.php:12
+msgid "Insert your text here"
+msgstr ""
+
+#: ../lib/shortcodes/tinymce_lang.php:13
+msgid "Insert your content here"
+msgstr ""
+
+#: ../lib/slider/slider.php:10 ../lib/slider/slider.php:38
+#: ../lib/slider/slider.php:45
+msgid "me_slider"
+msgstr ""
+
+#: ../lib/slider/slider.php:12
+msgid "Add Slide"
+msgstr ""
+
+#: ../lib/slider/slider.php:13
+msgid "Add New Slide"
+msgstr ""
+
+#: ../lib/slider/slider.php:14
+msgid "Edit Slide"
+msgstr ""
+
+#: ../lib/slider/slider.php:15
+msgid "New Slide"
+msgstr ""
+
+#: ../lib/slider/slider.php:16
+msgid "Preview Slider"
+msgstr ""
+
+#: ../lib/slider/slider.php:17
+msgid "No Slides Found"
+msgstr ""
+
+#: ../lib/slider/slider.php:18
+msgid "No Slides Found In Trash"
+msgstr ""
+
+#: ../lib/slider/slider.php:48
+msgid "Slide Updated."
+msgstr ""
+
+#: ../lib/slider/slider.php:51
+msgid "Slider Updated."
+msgstr ""
+
+#: ../lib/slider/slider.php:52
+#, php-format
+msgid "Slide Restored To Revision From %s"
+msgstr ""
+
+#: ../lib/slider/slider.php:53
+msgid "Slide Published."
+msgstr ""
+
+#: ../lib/slider/slider.php:54
+msgid "Slide Saved."
+msgstr ""
+
+#: ../lib/slider/slider.php:55
+msgid "Slide Submitted."
+msgstr ""
+
+#: ../lib/slider/slider.php:56
+#, php-format
+msgid "Slide Scheduled For: <strong>%1$s</strong>."
+msgstr ""
+
+#: ../lib/slider/slider.php:57
+msgid "Slide Draft Updated."
+msgstr ""
+
+#: ../lib/slider/slider.php:76
+msgid "Slide title"
+msgstr ""
+
+#: ../lib/slider/slider.php:77
+msgid "Preview image"
+msgstr ""
+
+#: ../lib/slider/slider_metaboxes.php:20
+msgid "Caption"
+msgstr ""
+
+#: ../lib/slider/slider_metaboxes.php:26
+msgid "Link"
+msgstr ""
+
+#: ../lib/slider/slider_metaboxes.php:32
+msgid "Video"
+msgstr ""
+
+#: ../lib/slider/slider_metaboxes.php:33
+msgid "YouTube or Vimeo iframe embed code"
+msgstr ""
+
+#: ../mail2.php:7
+msgid ""
+"We are really sorry, but something went wrong. Please try to send us an "
+"email via your email account."
+msgstr ""
+
+#: ../page.php:36 ../single.php:84 ../template-page-left-sidebar.php:48
+#: ../template-page-right-sidebar.php:39
+msgid "Pages:"
+msgstr ""
+
+#: ../page.php:41 ../single.php:89 ../template-page-left-sidebar.php:53
+#: ../template-page-right-sidebar.php:44
+msgid "Next page"
+msgstr ""
+
+#: ../page.php:42 ../single.php:90 ../template-page-left-sidebar.php:54
+#: ../template-page-right-sidebar.php:45
+msgid "Previous page"
+msgstr ""
+
+#: ../search.php:14
+#, php-format
+msgid "Search Results for: \"<i>%s</i>\""
+msgstr ""
+
+#: ../search.php:36
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../search.php:47
+msgid "Next"
+msgstr ""
+
+#: ../search.php:49
+msgid "Prev"
+msgstr ""
+
+#: ../searchform.php:3
+msgid "Search..."
+msgstr ""
+
+#: ../template-contact.php:84
+msgid "Address:"
+msgstr ""
+
+#: ../template-contact.php:88
+msgid "Phone:"
+msgstr ""
+
+#: ../template-contact.php:92
+msgid "Email:"
+msgstr ""

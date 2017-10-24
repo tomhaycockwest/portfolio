@@ -1,0 +1,23 @@
+# Clean URLs
+# RewriteEngine On
+# RewriteCond %{SCRIPT_FILENAME} !-d
+# RewriteRule ^([^.]+)$ $1.php [NC,L]
+
+
+# Errors
+# ErrorDocument 404 /404.html
+
+
+# Security #
+
+# Block dotfiles and dotdir
+RewriteEngine on
+RewriteRule (^\.|/\.) - [F]
+RedirectMatch 403 /\..*$
+
+
+# Block access to json files
+<FilesMatch "\.(?:json)$">
+	Order allow,deny
+	Deny from all
+</FilesMatch>

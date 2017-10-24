@@ -1,0 +1,67 @@
+.page-contact-us {
+	background: linear-gradient(90deg, #495AFF, #0ACFFE);
+
+	.intro {
+		margin-top: 295px;
+		@extend .container;
+	}
+
+	.form-container {
+		@extend .col-sm-9;
+		padding-left: 0;
+
+		form {
+			input,
+			textarea {
+				display: block;
+				background: #FFFFFF;
+				border-radius: 8px;
+				background: rgba(255, 255, 255, 0.2);
+				border: 0;
+				font-size: 20px;
+				color: $white;
+				width: 100%;
+				resize: none;
+				padding: 10px;
+
+				&[type='submit'] {
+					@extend .btn-outline-white;
+				}
+			}
+
+			label {
+				display: block;
+				font-size: 20px;
+				font-weight: 400;
+				margin-top: 18px;
+			}
+
+			.right-col {
+				@extend .col-sm-4;
+
+				@media only screen and (min-width: 692px) {
+					float: right;
+				}
+			}
+		}
+	}
+
+	.sidebar {
+		@extend .col-sm-3;
+		@extend %sofia-pro-bold;
+		color: $dark_grey;
+		font-size: 24px;
+		margin-top: 40px;
+
+		.row {
+			margin-top: 30px;
+		}
+
+		a {
+			@extend .col-sm-12;
+			color: $white;
+			font-weight: 400;
+			font-size: 16px;
+		}
+	}
+}

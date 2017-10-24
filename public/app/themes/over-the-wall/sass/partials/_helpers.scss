@@ -1,0 +1,285 @@
+// ==========================================================================
+// $ Options
+// ==========================================================================
+
+//
+// Helper Class Selector
+// @value  '%'  Placeholder, no output css
+// @value  '.'  Class, output all the CSS required to use the helper classes as direct OOCSS classes
+//
+$hcs: unquote('%') !default;
+
+// ==========================================================================
+// $ Helper Mixins
+// ==========================================================================
+
+//
+// REM Mixin
+// @link http://hugogiraudel.com/2013/03/18/ultimate-rem-mixin
+//
+// @require {function} parse-int
+//
+@mixin rem($property, $values) {
+	$base-px-size: 16 !default;
+
+	$px: ();
+	$rem: ();
+
+	@each $value in $values {
+
+		@if $value == 0 or $value == auto {
+			$px: append($px , $value);
+			$rem: append($rem, $value);
+		} @else {
+			$unit: unit($value);
+			$val: parse-int($value);
+
+			@if $unit == 'px' {
+				$px: append($px,  $value);
+				$rem: append($rem, ($val / $base-px-size + rem));
+			}
+
+			@if $unit == 'rem' {
+				$px: append($px,  ($val * $base-px-size + px));
+				$rem: append($rem, $value);
+			}
+		}
+	}
+
+	@if $px == $rem {
+		#{$property}: $px;
+	} @else {
+		#{$property}: $rem;
+	}
+}
+
+//
+// Text antialiasing
+// @param  {string}  $value  antialiased (default), subpixel-antialiased, none
+//
+@mixin font-smoothing($value: aa) {
+	@if $value == aa {
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+
+	} @else if $value == subpixel-aa {
+		-webkit-font-smoothing: subpixel-antialiased;
+		-moz-osx-font-smoothing: auto;
+
+	} @else if $value == none {
+		-webkit-font-smoothing: none;
+		-moz-osx-font-smoothing: none;
+	}
+}
+
+//
+// Image Replacement
+// Needs to be applied to a `block` or `inline-block` element
+// http://css-tricks.com/examples/ImageReplacement/#kellum
+//
+@mixin ir {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+//
+// Image Replacement #2
+// Hide the text when regular image replacement wont work
+// Usually required to replace text on <button> elements in Firefox
+//
+@mixin font-crush {
+	font: 0 / 0 a;
+	text-shadow: none;
+	color: transparent;
+}
+
+//
+// Clearfix
+//
+@mixin cf {
+	&::before,
+	&::after {
+		content: ' ';
+		display: table;
+	}
+
+	&::after {
+		clear: both;
+	}
+}
+
+//
+// Font Face
+// Generate all the necessary font-face properties
+// @link https://gist.github.com/jonathantneal/d0460e5c2d5d7f9bc5e6
+//
+// @require  {function}  str-replace
+//
+// @param  {string}  $name    font name to be referenced in `font-family` declarations
+// @param  {string}  $path    path to the font files (excluding file extension)
+// @param  {string}  $weight  font weight
+// @param  {string}  $style   font style
+// @param  {list}    $exts    font types (file extensions) to use
+//
+// @example `@include font-face('NeuzeitGro', font('2A088F_4_0'), 400)`
+//
+@mixin font-face($name, $path, $weight: normal, $style: normal, $exts: eot woff2 woff ttf svg) {
+	$src: null;
+
+	$extmods: (
+		eot: '?#iefix',
+		svg: '#' + str-replace($name, ' ', '_')
+	);
+
+	$formats: (
+		eot: 'embedded-opentype',
+		otf: 'opentype',
+		ttf: 'truetype'
+	);
+
+	@each $ext in $exts {
+		$extmod: if(map-has-key($extmods, $ext), $ext + map-get($extmods, $ext), $ext);
+		$format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);
+		$src: append($src, url(quote($path + '.' + $extmod)) format(quote($format)), comma);
+	}
+
+	@font-face {
+		font-family: quote($name);
+		font-weight: $weight;
+		font-style: $style;
+
+		@if index($exts, eot) {
+			src: url('#{$path}.eot');
+		}
+
+		src: $src;
+	}
+}
+
+// ==========================================================================
+// $ Patterns
+// ==========================================================================
+
+//
+// Media Object
+// @link  stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code
+//
+// @version  default     =  Image -- Text
+// @version  .media--rev =  Text  -- Image
+//
+// @example
+// ``` html
+//	<div class="media">
+//		<a class="media__img" href="">
+//			<img src="" alt="" />
+//		</a>
+//		<div class="media__bd">
+//			Some text next to the image
+//		</div>
+//	</div>
+//	```
+//
+@mixin media-object($spacing: false) {
+
+	& {
+		@if ($spacing) { margin: $spacing; }
+
+		&__img {
+			float: left;
+			@if ($spacing) { margin-right: $spacing; }
+
+			img {
+				display: block;
+			}
+		}
+
+		// Clearfix
+		&,
+		&__bd {
+			overflow: hidden;
+			zoom: 1;
+		}
+
+	}
+
+	//
+	// Modifier: Reverse
+	// Text on the left, image on the right
+	// @extends .media
+	//
+	&--rev &__image {
+		float: right;
+
+		@if ($spacing) {
+			margin-left: $spacing;
+			margin-right: 0;
+		}
+	}
+
+}
+
+//
+// Fluid Embed
+// Makes media embeds maintain a fixed aspect ratio but adapt to the width of their parent container
+//
+// @link  github.com/suitcss/flex-embed/blob/master/flex-embed.css
+//
+// @example
+// ``` html
+//	<div class="fluid-embed fluid-embed--16x9">
+//		<iframe class="fluid-embed__item" src="..."></iframe>
+//	</div>
+// ```
+//
+@mixin fluid-embed {
+	position: relative;
+	padding-top: 25px;
+	padding-bottom: 56.25%;	// default to 16x9
+	height: 0;
+
+	//
+	// The use of an explicit descendant class makes this component more flexible.
+	// However, it will work automatically for iframes, embeds, and objects to
+	// account for times when you cannot modify the attributes for 3rd party widget
+	// code.
+	//
+	&__item,
+	iframe,
+	embed,
+	object {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+
+	//
+	// Modifier: 16:9 aspect ratio
+	// @extends .fluid-embed
+	// libsass doesn't support BEM modifiers than start with numbers (#738)
+	//
+	&--r16x9 {
+		padding-bottom: 56.25%;
+	}
+
+	//
+	// Modifier: 4:3 aspect ratio
+	// @extends .fluid-embed
+	// libsass doesn't support BEM modifiers than start with numbers (#738)
+	//
+	&--r4x3 {
+		padding-bottom: 75%;
+	}
+}
+
+// ==========================================================================
+// $ Helper Classes
+// ==========================================================================
+
+#{$hcs}cf { @include cf; }
+#{$hcs}ir { @include ir; }
+#{$hcs}font-crush { @include font-crush; }
+#{$hcs}fluid-embed { @include fluid-embed; }

@@ -1,0 +1,91 @@
+<wpml-config>
+    <custom-fields>
+            <custom-field action="translate">slider_caption_metabox</custom-field>
+            <custom-field action="ignore">custom_layout</custom-field>
+            <custom-field action="ignore">custom_project_link</custom-field>
+            <custom-field action="ignore">custom_repeatable</custom-field>
+            <custom-field action="ignore">custom_vimeo</custom-field>
+            <custom-field action="ignore">custom_youtube</custom-field>
+            <custom-field action="ignore">slider_link_metabox</custom-field>
+            <custom-field action="ignore">service_icon</custom-field>
+    </custom-fields>
+    <taxonomies>
+            <taxonomy translate="1">filter</taxonomy>
+    </taxonomies>
+    <custom-types>
+            <custom-type translate="1">me_slider</custom-type>
+            <custom-type translate="1">portfolio</custom-type>
+            <custom-type translate="1">service</custom-type>
+            <custom-type translate="1">about</custom-type>
+    </custom-types>
+    <admin-texts>
+            <key name="logo_width" />
+            <key name="logo_height" />
+            <key name="logo_alt" />
+            <key name="copyright_text" />
+            <key name="error_page_title" />
+            <key name="error_page_content" />
+            <key name="intro_text" />
+            <key name="portfolio_title" />
+            <key name="services_title" />
+            <key name="about_title" />
+            <key name="contact_title" />
+            <key name="text1_title" />
+            <key name="text1_content" />
+            <key name="text2_title" />
+            <key name="text2_content" />
+            <key name="text3_title" />
+            <key name="text3_content" />
+            <key name="text4_title" />
+            <key name="text4_content" />
+            <key name="text5_title" />
+            <key name="text5_content" />
+            <key name="portfolio_more_info" />
+            <key name="portfolio_link" />
+            <key name="all_projects" />
+            <key name="services_intro" />
+            <key name="contact_email" />
+            <key name="contact_text" />
+            <key name="contact_address" />
+            <key name="contact_phone" />
+            <key name="contact_form_name" />
+            <key name="contact_form_email_label" />
+            <key name="contact_form_message_label" />
+            <key name="send_button_label" />
+            <key name="missing_name" />
+            <key name="missing_mail" />
+            <key name="invalid_mail" />
+            <key name="missing_message" />
+            <key name="thank_you_text" />
+            <key name="facebook_tooltip" />
+            <key name="twitter_tooltip" />
+            <key name="rss_tooltip" />
+            <key name="dribble_tooltip" />
+            <key name="skype_tooltip" />
+            <key name="youtube_tooltip" />
+            <key name="vimeo_tooltip" />
+            <key name="linkedin_tooltip" />
+            <key name="deviant_tooltip" />
+            <key name="tumblr_tooltip" />
+            <key name="pinterest_tooltip" />
+            <key name="google_tooltip" />
+            <key name="instagram_tooltip" />
+            <key name="soundcloud_tooltip" />
+            <key name="github_tooltip" />
+            <key name="flickr_tooltip" />
+            <key name="behance_tooltip" />
+            <key name="read_more" />
+            <key name="older_posts" />
+            <key name="newer_posts" />
+            <key name="commentform_name" />
+            <key name="commentform_name_error" />
+            <key name="commentform_email" />
+            <key name="commentform_email_error" />
+            <key name="commentform_email_invalid" />
+            <key name="commentform_website" />
+            <key name="commentform_message" />
+            <key name="commentform_message_error" />
+    </admin-texts>
+</wpml-config>
+
+

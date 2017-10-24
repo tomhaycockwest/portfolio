@@ -1,0 +1,19 @@
+.post-type-archive-press {
+	background: linear-gradient(90deg, #495AFF, #0ACFFE);
+
+	.portfolio	{
+		.inner {
+			.portfolio-container {
+				.portfolio-item-container {
+					.image-container {
+						background: transparent;
+					}
+				}
+			}
+		}
+	}
+
+	.description {
+		color: $black;
+	}
+}

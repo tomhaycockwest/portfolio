@@ -1,0 +1,34 @@
+.single-our-games {
+	background: $dark_grey;
+
+	.intro {
+		margin-top: calc(100vh * -0.4);
+		margin-bottom: 20px;
+
+		@include above('medium') {
+			margin-bottom: 40px;
+		}
+	}
+
+	.carousel-wrapper {
+		margin-bottom: 70px;
+
+		@include above('medium') {
+			margin-bottom: 100px;
+		}
+	}
+
+	.button-container {
+		display: none;
+
+		@include above('medium') {
+			display: block;
+		}
+	}
+
+	.sidebar {
+		.button-container {
+			display: block;
+		}
+	}
+}

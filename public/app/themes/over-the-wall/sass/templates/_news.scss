@@ -1,0 +1,33 @@
+.post-type-archive-news {
+	.intro {
+		.inner {
+			.title {
+				padding: 0 15px;
+
+				@include above('medium') {
+					padding: 0 0 10px 0;
+				}
+			}
+		}
+	}
+
+	.portfolio {
+
+		@include above('medium') {
+			margin-top: 40px;
+		}
+
+		.inner {
+			.portfolio-container {
+				.portfolio-item-container {
+					p.date {
+						margin-top: 20px;
+						margin-bottom: 0;
+						font-size: 14px;
+						color: $white;
+					}
+				}
+			}
+		}
+	}
+}

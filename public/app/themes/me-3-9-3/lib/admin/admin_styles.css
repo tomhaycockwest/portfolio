@@ -1,0 +1,230 @@
+.clear { clear: both; }
+td.column-thumb { text-align: center; vertical-align: middle; }
+th.column-thumb { text-align: center; }
+#slider_caption_id, #service_description_id { margin-top: 50px; }
+.custom_metabox_title { font-size: 15px; margin-bottom: 0px; margin-top: 0px !important; }
+
+.options-wrap { width: 820px; min-height: 385px; position: relative; float: left; margin-top: 20px; border: 1px solid #CCC; background: #F6F6F6; }
+#options-menu { width: 145px; position: absolute; top: 0; left: 0; bottom: 0; float: left; background: #333; border-right: 1px solid #CCC; }
+#options-menu ul, #options-menu ul li { margin: 0px; background: #222; }
+#options-menu ul li a { display: block; width: 130px; line-height: 18px; padding: 8px 15px; padding-right: 0px; font-size: 14px; color: #eee; text-decoration: none; }
+#options-menu ul li a:hover, #options-menu ul li.active a { width: 131px; background: #F6F6F6; color: #333; }
+.options-menu-image { width: 28px; height: 28px; float: left; }
+.options { width: 635px; float: right; margin: 25px 20px; }
+.options h2 { width: 500px; float: left; margin: 0px; padding: 0px; font-size: 20px; font-family: 'Open Sans', sans-serif; font-weight: normal; }
+.options div.updated { margin-bottom: 30px; }
+div.options_header { margin-bottom: 20px; }
+div.options_footer { margin-top: 30px; }
+div.options_description { line-height: 20px; margin-bottom: 20px; font-size: 12px; color: #666; }
+div.option { position: relative; margin-bottom: 20px; padding: 20px; background: #FFF; border-radius: 10px; -moz-box-shadow: 10px 10px 5px #EEE; -webkit-box-shadow: 2px 2px 5px #EEE; box-shadow: 2px 2px 2px #EEE; }
+div.option-right { width: 385px; float: right; line-height: 30px; }
+div.option-left { width: 190px; line-height: 30px; float: left; text-align: right; font-size: 14px; font-weight: bold; color: #333; }
+div.option-editor { width: 560px; float: right; padding-top: 10px; }
+a#text1editor_magna_shortcodes { display: none; }
+a#text2editor_magna_shortcodes { display: none; }
+a#text3editor_magna_shortcodes { display: none; }
+div.option-right input[type="text"] { width: 310px; height: 30px; }
+div.option-right input[type="text"].image_select_field { width: 170px; }
+div.option-right input[type="text"].color-input { width: 200px; }
+div.option-right textarea { width: 327px; height: 120px; line-height: 17px; padding-left: 10px; font-family: 'Open Sans', sans-serif; }
+div.option-right .wp-editor-container textarea.wp-editor-area { width: 320px; height: 120px; }
+div.option-right .wp-editor-wrap { width: 326px; }
+span.color_preview { display: block; width: 28px; height: 28px; float: left; margin-left: 10px; margin-right: 10px; border: 1px solid #DFDFDF; }
+.color-input { float: left; }
+.question { display: block; width: 28px; height: 28px; position: absolute; top: 22px; right: 25px; background: url('question.png') no-repeat; }
+.admin_image_container { width: 300px; background: #EEE; text-align: center; }
+.admin_image_container img { max-width: 100%; height: auto; display: inline-block; }
+.logo-container img { margin: 20px; }
+.widget-content .admin_image_container { display: block; width: 100%; padding-top: 15px; background: transparent; }
+.widget-content .admin_image_container img { display: block; max-width: 100%; height: auto; display: block; margin: 0 auto; margin-top: 0px; }
+
+/* Portfolio item layout selector */
+.layout_option { width: 80px; float: left; margin-right: 15px; text-align: center; }
+.icon_layout1, .icon_layout2, .icon_layout3, .icon_layout4 { width: 80px; height: 66px; margin-bottom: 10px; background: #ECECEC; }
+.icon_layout1 { background: url('layout1.png'); }
+.icon_layout2 { background: url('layout2.png'); }
+.icon_layout3 { background: url('layout3.png'); }
+.icon_layout4 { background: url('layout4.png'); }
+
+/* Portfolio thumbnail shape option */
+.layout-container { width: 310px; float: left; }
+.layout-container ul { margin: 0; padding: 0; }
+.layout-container ul li { float: left; display: block; width: 50px; margin-right: 10px; text-align: center; }
+.layout-container ul li span { display: block; width: 50px; height: 80px; margin-bottom: 15px; }
+.layout-container ul li span.circle { background: url('circle.png') center center no-repeat; }
+.layout-container ul li span.cube { background: url('cube.png') center center no-repeat; }
+.layout-container ul li span.landscape { background: url('landscape.png') center center no-repeat; }
+.layout-container ul li span.portrait { background: url('portrait.png') center center no-repeat; }
+.layout-container ul li span.oval { background: url('oval.png') center center no-repeat; }
+
+/* Service icons metabox */
+#predesigned_icons { width: 94%; padding: 20px 3%; background: #DDD; }
+#predesigned_icons ul li { float: left; width: 70px; height: 86px; position: relative; margin: 0px 10px; margin-bottom: 30px; text-align: center; }
+#predesigned_icons ul li input[type="radio"] { position: absolute; bottom: 0px; left: 32px; }
+#custom_icon_container { width: 120px; height: 120px; margin-top: 20px; }
+input[name="service_icon_width"] { margin-right: 20px; }
+
+/* Patterns */
+a.background_pattern_less { opacity: 0.3; }
+div.patterns_container { width: 180px; height: 120px; float: left; overflow: hidden; margin-right: 15px; }
+div.patterns_container ul { margin: 0px; }
+div.patterns_container ul li { width: 180px; float: none; margin-bottom: 20px; }
+div.patterns_container ul li div { width: 148px; height: 118px; float: right; border: 1px solid #CCC; }
+div.patterns_container ul li div.no_pattern { background: url('admin_patterns/no_pattern.png') center center no-repeat; }
+div.patterns_container ul li div.no_pattern { background: url('admin_patterns/no_pattern.png') center center no-repeat; }
+div.patterns_container ul li div.pattern1 { background: url('admin_patterns/pattern1.png'); }
+div.patterns_container ul li div.pattern2 { background: url('admin_patterns/pattern2.png'); }
+div.patterns_container ul li div.pattern3 { background: url('admin_patterns/pattern3.png'); }
+div.patterns_container ul li div.pattern4 { background: url('admin_patterns/pattern4.png'); }
+div.patterns_container ul li div.pattern5 { background: url('admin_patterns/pattern5.png'); }
+div.patterns_container ul li div.pattern6 { background: url('admin_patterns/pattern6.png'); }
+div.patterns_container ul li div.pattern7 { background: url('admin_patterns/pattern7.png'); }
+div.patterns_container ul li div.pattern8 { background: url('admin_patterns/pattern8.png'); }
+div.patterns_container ul li div.pattern9 { background: url('admin_patterns/pattern9.png'); }
+div.patterns_container ul li div.pattern10 { background: url('admin_patterns/pattern10.png'); }
+div.patterns_container ul li div.pattern11 { background: url('admin_patterns/pattern11.png'); }
+div.patterns_container ul li div.pattern12 { background: url('admin_patterns/pattern12.png'); }
+div.patterns_container ul li div.pattern13 { background: url('admin_patterns/pattern13.png'); }
+div.patterns_container ul li div.pattern14 { background: url('admin_patterns/pattern14.png'); }
+div.patterns_container ul li div.pattern15 { background: url('admin_patterns/pattern15.png'); }
+div.patterns_container ul li div.pattern16 { background: url('admin_patterns/pattern16.png'); }
+div.patterns_container ul li div.pattern17 { background: url('admin_patterns/pattern17.png'); }
+div.patterns_container ul li div.pattern18 { background: url('admin_patterns/pattern18.png'); }
+div.patterns_container ul li div.pattern19 { background: url('admin_patterns/pattern19.png'); }
+div.patterns_container ul li div.pattern20 { background: url('admin_patterns/pattern20.png'); }
+div.patterns_container ul li div.pattern21 { background: url('admin_patterns/pattern21.png'); }
+div.patterns_container ul li div.pattern22 { background: url('admin_patterns/pattern22.png'); }
+div.patterns_container ul li div.pattern23 { background: url('admin_patterns/pattern23.png'); }
+div.patterns_container ul li div.pattern24 { background: url('admin_patterns/pattern24.png'); }
+div.patterns_container ul li div.pattern25 { background: url('admin_patterns/pattern25.png'); }
+div.patterns_container ul li div.pattern26 { background: url('admin_patterns/pattern26.png'); }
+div.patterns_container ul li div.pattern27 { background: url('admin_patterns/pattern27.png'); }
+div.patterns_container ul li div.pattern28 { background: url('admin_patterns/pattern28.png'); }
+div.patterns_container ul li div.pattern29 { background: url('admin_patterns/pattern29.png'); }
+div.patterns_container ul li div.pattern30 { background: url('admin_patterns/pattern30.png'); }
+div.patterns_container ul li div.pattern31 { background: url('admin_patterns/pattern31.png'); }
+div.patterns_container ul li div.pattern32 { background: url('admin_patterns/pattern32.png'); }
+div.patterns_container ul li div.pattern33 { background: url('admin_patterns/pattern33.png'); }
+div.patterns_container ul li div.pattern34 { background: url('admin_patterns/pattern34.png'); }
+
+/* Tip Tip */
+#tiptip_holder { display: none; position: absolute; top: 0; left: 0; z-index: 99999; }
+#tiptip_holder.tip_top { padding-bottom: 5px; }
+#tiptip_holder.tip_bottom { padding-top: 5px; }
+#tiptip_holder.tip_right { padding-left: 5px; }
+#tiptip_holder.tip_left { padding-right: 5px; }
+#tiptip_content { font-size: 12px; color: #fff; text-shadow: 0 0 2px #000; padding: 14px 18px; line-height: 150%; background: #000; }
+#tiptip_arrow, #tiptip_arrow_inner { position: absolute; border-color: transparent; border-style: solid; border-width: 6px;  height: 0; width: 0; }
+#tiptip_holder.tip_top #tiptip_arrow_inner { margin-top: -7px; margin-left: -6px; border-top-color: rgb(25,25,25); border-top-color: rgba(25,25,25,0.92); }
+#tiptip_holder.tip_bottom #tiptip_arrow_inner { margin-top: -5px; margin-left: -6px; border-bottom-color: rgb(25,25,25); border-bottom-color: rgba(25,25,25,0.92); }
+#tiptip_holder.tip_right #tiptip_arrow_inner { margin-top: -6px; margin-left: -5px; border-right-color: rgb(25,25,25); border-right-color: rgba(25,25,25,0.92); }
+#tiptip_holder.tip_left #tiptip_arrow_inner { margin-top: -6px; margin-left: -7px; border-left-color: rgb(25,25,25); border-left-color: rgba(25,25,25,0.92); }
+@media screen and (-webkit-min-device-pixel-ratio:0) { #tiptip_content { background-color: rgba(0,0,0,1); }
+                                                       #tiptip_holder.tip_bottom #tiptip_arrow_inner { border-bottom-color: rgba(0,0,0,1); }
+	                                               #tiptip_holder.tip_top #tiptip_arrow_inner { border-top-color: rgba(0,0,0,1); }
+}
+	                                               
+	                                               
+/* Below version 3.8
+
+.clear { clear: both; }
+td.column-thumb { text-align: center; vertical-align: middle; }
+th.column-thumb { text-align: center; }
+#slider_caption_id, #service_description_id { margin-top: 50px; }
+.custom_metabox_title { font-size: 15px; margin-bottom: 0px; }
+
+.options-wrap { width: 820px; min-height: 385px; position: relative; float: left; margin-top: 20px; border: 1px solid #CCC; background: #F6F6F6; }
+#options-menu { width: 145px; position: absolute; top: 0; left: 0; bottom: 0; float: left; background: #ECECEC; border-right: 1px solid #CCC; }
+#options-menu ul, #options-menu ul li { margin: 0px; }
+#options-menu ul li:hover, #options-menu ul li.active { background: #F6F6F6; width: 146px; }
+#options-menu ul li a { display: block; line-height: 18px; padding: 7px 15px; font-size: 13px; color: #21759B; font-weight: bold; border-top-color: #F9F9F9; border-bottom-color: #DFDFDF; border-width: 1px 0px 1px; border-style: solid; text-decoration: none; }
+.options-menu-image { width: 28px; height: 28px; float: left; }
+.options { width: 635px; float: right; margin: 25px 20px; }
+.options h2 { width: 500px; float: left; margin: 0px; padding: 0px; font-size: 20px; font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",sans-serif; font-weight: normal; }
+div.options_header { margin-bottom: 20px; }
+div.options_footer { margin-top: 30px; }
+div.options_description { line-height: 20px; margin-bottom: 20px; font-size: 12px; color: #666; }
+div.option { position: relative; margin-bottom: 20px; padding: 20px; background: #FFF; border-radius: 10px; -moz-box-shadow: 10px 10px 5px #EEE; -webkit-box-shadow: 2px 2px 5px #EEE; box-shadow: 2px 2px 2px #EEE; }
+div.option-right { width: 385px; float: right; line-height: 30px; }
+div.option-left { width: 190px; line-height: 30px; float: left; text-align: right; font-size: 14px; font-weight: bold; color: #333; }
+div.option-right input[type="text"] { height: 30px; }
+div.option-right textarea { width: 327px; height: 120px; line-height: 17px; padding-left: 10px; }
+span.color_preview { display: block; width: 28px; height: 28px; float: left; margin-left: 10px; margin-right: 10px; border: 1px solid #DFDFDF; }
+.color-input { float: left; }
+.question { display: block; width: 28px; height: 28px; position: absolute; top: 22px; right: 25px; background: url('question.png') no-repeat; }
+
+.layout_option { width: 80px; float: left; margin-right: 15px; text-align: center; }
+.icon_layout1, .icon_layout2, .icon_layout3, .icon_layout4 { width: 80px; height: 66px; margin-bottom: 10px; background: #ECECEC; }
+.icon_layout1 { background: url('layout1.png'); }
+.icon_layout2 { background: url('layout2.png'); }
+.icon_layout3 { background: url('layout3.png'); }
+.icon_layout4 { background: url('layout4.png'); }
+
+#predesigned_icons { width: 94%; padding: 20px 3%; background: #DDD; }
+#predesigned_icons ul li { float: left; width: 70px; height: 86px; position: relative; margin: 0px 10px; margin-bottom: 30px; text-align: center; }
+#predesigned_icons ul li input[type="radio"] { position: absolute; bottom: 0px; left: 32px; }
+#custom_icon_container { width: 120px; height: 120px; margin-top: 20px; }
+input[name="service_icon_width"] { margin-right: 20px; }
+
+div.patterns_container { width: 250px; height: 70px; float: left; overflow: hidden; }
+div.patterns_container ul { margin: 0px; }
+div.patterns_container ul li { width: 40px; float: left; margin-right: 10px; margin-bottom: 15px; text-align: center; }
+div.patterns_container ul li div { width: 38px; height: 38px; border: 1px solid #CCC; }
+div.patterns_container ul li.active_pattern { width: 36px; padding: 2px; background: #EEE; }
+div.patterns_container ul li.active_pattern div { width: 32px; height: 32px; margin: 0 auto; }
+div.patterns_container ul li div.no_pattern { background: url('admin_patterns/no_pattern.png') center center no-repeat; }
+div.patterns_container ul li div.pattern1 { background: url('admin_patterns/pattern1.png'); }
+div.patterns_container ul li div.pattern2 { background: url('admin_patterns/pattern2.gif'); }
+div.patterns_container ul li div.pattern3 { background: url('admin_patterns/pattern3.png'); }
+div.patterns_container ul li div.pattern4 { background: url('admin_patterns/pattern4.png'); }
+div.patterns_container ul li div.pattern5 { background: url('admin_patterns/pattern5.gif'); }
+div.patterns_container ul li div.pattern6 { background: url('admin_patterns/pattern6.png'); }
+div.patterns_container ul li div.pattern7 { background: url('admin_patterns/pattern7.png'); }
+div.patterns_container ul li div.pattern8 { background: url('admin_patterns/pattern8.gif'); }
+div.patterns_container ul li div.pattern9 { background: url('admin_patterns/pattern9.png'); }
+div.patterns_container ul li div.pattern10 { background: url('admin_patterns/pattern10.png'); }
+div.patterns_container ul li div.pattern11 { background: url('admin_patterns/pattern11.gif'); }
+div.patterns_container ul li div.pattern12 { background: url('admin_patterns/pattern12.png'); }
+div.patterns_container ul li div.pattern13 { background: url('admin_patterns/pattern13.png'); }
+div.patterns_container ul li div.pattern14 { background: url('admin_patterns/pattern14.gif'); }
+div.patterns_container ul li div.pattern15 { background: url('admin_patterns/pattern15.png'); }
+div.patterns_container ul li div.pattern16 { background: url('admin_patterns/pattern16.png'); }
+div.patterns_container ul li div.pattern17 { background: url('admin_patterns/pattern17.gif'); }
+div.patterns_container ul li div.pattern18 { background: url('admin_patterns/pattern18.png'); }
+div.patterns_container ul li div.pattern19 { background: url('admin_patterns/pattern19.png'); }
+div.patterns_container ul li div.pattern20 { background: url('admin_patterns/pattern20.gif'); }
+div.patterns_container ul li div.pattern21 { background: url('admin_patterns/pattern21.png'); }
+div.patterns_container ul li div.pattern22 { background: url('admin_patterns/pattern22.png'); }
+div.patterns_container ul li div.pattern23 { background: url('admin_patterns/pattern23.gif'); }
+div.patterns_container ul li div.pattern24 { background: url('admin_patterns/pattern24.png'); }
+div.patterns_container ul li div.pattern25 { background: url('admin_patterns/pattern25.gif'); }
+div.patterns_container ul li div.pattern26 { background: url('admin_patterns/pattern26.gif'); }
+div.patterns_container ul li div.pattern27 { background: url('admin_patterns/pattern27.png'); }
+div.patterns_container ul li div.pattern28 { background: url('admin_patterns/pattern28.png'); }
+div.patterns_container ul li div.pattern29 { background: url('admin_patterns/pattern29.gif'); }
+div.patterns_container ul li div.pattern30 { background: url('admin_patterns/pattern30.png'); }
+div.patterns_container ul li div.pattern31 { background: url('admin_patterns/pattern31.png'); }
+div.patterns_container ul li div.pattern32 { background: url('admin_patterns/pattern32.png'); }
+div.patterns_container ul li div.pattern33 { background: url('admin_patterns/pattern33.png'); }
+div.patterns_container ul li div.pattern34 { background: url('admin_patterns/pattern34.gif'); }
+
+#tiptip_holder { display: none; position: absolute; top: 0; left: 0; z-index: 99999; }
+#tiptip_holder.tip_top { padding-bottom: 5px; }
+#tiptip_holder.tip_bottom { padding-top: 5px; }
+#tiptip_holder.tip_right { padding-left: 5px; }
+#tiptip_holder.tip_left { padding-right: 5px; }
+#tiptip_content { font-size: 11px; color: #fff; text-shadow: 0 0 2px #000; padding: 4px 8px; border: 1px solid rgba(255,255,255,0.25); background-color: rgb(25,25,25); background-color: rgba(25,25,25,0.92); background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(#000)); border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; box-shadow: 0 0 3px #555; -webkit-box-shadow: 0 0 3px #555; -moz-box-shadow: 0 0 3px #555; }
+#tiptip_arrow, #tiptip_arrow_inner { position: absolute; border-color: transparent; border-style: solid; border-width: 6px;  height: 0; width: 0; }
+#tiptip_holder.tip_top #tiptip_arrow { border-top-color: #fff; border-top-color: rgba(255,255,255,0.35); }
+#tiptip_holder.tip_bottom #tiptip_arrow { border-bottom-color: #fff; border-bottom-color: rgba(255,255,255,0.35); }
+#tiptip_holder.tip_right #tiptip_arrow { border-right-color: #fff; border-right-color: rgba(255,255,255,0.35); }
+#tiptip_holder.tip_left #tiptip_arrow { border-left-color: #fff; border-left-color: rgba(255,255,255,0.35); }
+#tiptip_holder.tip_top #tiptip_arrow_inner { margin-top: -7px; margin-left: -6px; border-top-color: rgb(25,25,25); border-top-color: rgba(25,25,25,0.92); }
+#tiptip_holder.tip_bottom #tiptip_arrow_inner { margin-top: -5px; margin-left: -6px; border-bottom-color: rgb(25,25,25); border-bottom-color: rgba(25,25,25,0.92); }
+#tiptip_holder.tip_right #tiptip_arrow_inner { margin-top: -6px; margin-left: -5px; border-right-color: rgb(25,25,25); border-right-color: rgba(25,25,25,0.92); }
+#tiptip_holder.tip_left #tiptip_arrow_inner { margin-top: -6px; margin-left: -7px; border-left-color: rgb(25,25,25); border-left-color: rgba(25,25,25,0.92); }
+@media screen and (-webkit-min-device-pixel-ratio:0) { #tiptip_content { padding: 4px 8px 5px 8px; background-color: rgba(45,45,45,0.88); }
+                                                       #tiptip_holder.tip_bottom #tiptip_arrow_inner { border-bottom-color: rgba(45,45,45,0.88); }
+	                                               #tiptip_holder.tip_top #tiptip_arrow_inner { border-top-color: rgba(20,20,20,0.92); }
+
+*/

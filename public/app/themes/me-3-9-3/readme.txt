@@ -1,0 +1,1 @@
+Please check the documentation and the tutorial videos before start the work. If you need any information that beyond the scope of the provided help files, don't be shy to write me at info@magna-themes.com

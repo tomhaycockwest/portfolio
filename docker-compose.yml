@@ -1,0 +1,37 @@
+version: '2'
+services:
+  php:
+    build: .
+    working_dir: /brave/public
+    command: php -S 0.0.0.0:8080
+    ports:
+      - 8080:8080
+    volumes:
+      - ./:/brave
+    links:
+      - database:database
+    depends_on:
+      - composer-install
+      - database
+    networks:
+      - wordpress-network
+  composer-install:
+    image: composer/composer:alpine
+    working_dir: /brave/
+    command: install
+    volumes:
+      - ./:/brave
+  database:
+   image: mysql:latest
+   ports:
+     - 0.0.0.0:3306:3306
+   environment:
+      MYSQL_DATABASE: ${DB_NAME}
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+   networks:
+     - wordpress-network
+   volumes:
+     - ./data:/docker-entrypoint-initdb.d
+networks:
+  wordpress-network:
+      driver: bridge
