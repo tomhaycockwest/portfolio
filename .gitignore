@@ -59,7 +59,6 @@ public/app/backupwordpress-5fbff06d57-backups
 
 # Application
 public/app/upgrade
-public/app/uploads/*
 !public/app/uploads/.gitkeep
 
 # Composer
