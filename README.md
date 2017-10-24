@@ -1,5 +1,3 @@
-# Brave
-
 ## Docker
 
 ### Databases
@@ -14,7 +12,7 @@ Run the app
 
 ## Setup CMS
 * Go to appearance -> themes
-* Activate 'Over The Wall' Theme
+* Activate relevant Theme
 * Go to Pages -> Add new
 * Create a page named 'home' and assign it to use the 'home' template
 * Click 'Publish'
@@ -25,4 +23,4 @@ Run the app
 * Go to Settings -> Permalinks
 * Select 'Custom Structure' /%postname%/
 * Click 'Save Changes'
-# portfolio
+
